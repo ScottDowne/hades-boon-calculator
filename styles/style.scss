@@ -1,0 +1,15 @@
+html {
+  height: 100%;
+}
+
+body,
+#root { // sass-lint:disable-line no-ids
+  min-height: 100vh;
+}
+
+#root { // sass-lint:disable-line no-ids
+  position: relative;
+}
+
+// Components
+//@import '../components/A11yLinkButton/A11yLinkButton';

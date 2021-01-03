@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "name": "Heartbreak Strike",
+      "god": "Aphrodite",
+      "type": "attack"
+    },
+    {
+      "name": "Heartbreak Flourish",
+      "god": "Aphrodite",
+      "type": "special"
+    },
+    {
+      "name": "Crush Shot",
+      "god": "Aphrodite",
+      "type": "cast"
+    },
+    {
+      "name": "Passion Flare",
+      "god": "Aphrodite",
+      "type": "cast"
+    },
+    {
+      "name": "Passion Death",
+      "god": "Aphrodite",
+      "type": "dash"
+    },
+    {
+      "name": "Aphrodite's Aid",
+      "god": "Aphrodite",
+      "type": "call"
+    },
+    {
+      "name": "Dying Lament",
+      "god": "Aphrodite"
+    },
+    {
+      "name": "Wave of Despair",
+      "god": "Aphrodite"
+    },
+    {
+      "name": "Different League",
+      "god": "Aphrodite"
+    },
+    {
+      "name": "Life Affirmation",
+      "god": "Aphrodite"
+    },
+    {
+      "name": "Empty Inside",
+      "god": "Aphrodite",
+      "prerequisites": ["Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"]
+    },
+    {
+      "name": "Sweet Surrender",
+      "god": "Aphrodite",
+      "prerequisites": ["Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"]
+    },
+    {
+      "name": "Broken Resolve",
+      "god": "Aphrodite",
+      "prerequisites": ["Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"]
+    },
+    {
+      "name": "Blown Kiss",
+      "god": "Aphrodite",
+      "prerequisites": ["Crush Shot"]
+    },
+    {
+      "name": "Unhealthy Fixation",
+      "god": "Aphrodite",
+      "legendary": true,
+      "prerequisites": [
+        "Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish",
+        "Empty Inside, Sweet Surrender, Broken Resolve"
+      ]
+    }
+  ]
+}

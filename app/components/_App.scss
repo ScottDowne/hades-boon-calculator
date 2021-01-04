@@ -1,0 +1,15 @@
+.boons-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 667px;
+  width: 526px;
+  margin-right: -165px;
+  justify-content: space-between;
+}
+
+.app-container {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+}

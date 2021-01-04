@@ -1,0 +1,36 @@
+.boon-container {
+  width: 70px;
+  flex-basis: 70px;
+  border: 1px solid #725e2c;
+  cursor: pointer;
+  transform: rotate(-45deg);
+  margin: 15px;
+  overflow: hidden;
+  &:nth-child(5) {
+    margin-bottom: 172px;
+  }
+  &:nth-child(10) {
+    margin-bottom: 121px;
+  }
+  &:nth-child(16) {
+    margin-bottom: 70px;
+  }
+  &:nth-child(21) {
+    margin-bottom: 121px;
+  }
+  &:nth-child(6) {
+    margin-top: 66px;
+  }
+  &:nth-child(17) {
+    margin-top: 66px;
+  }
+  &:nth-child(n+6) {
+    margin-left: -130px;
+  }
+  &:nth-child(n+11) {
+    margin-left: -173px;
+  }
+  &:nth-child(n+17) {
+    margin-left: -216px;
+  }
+}

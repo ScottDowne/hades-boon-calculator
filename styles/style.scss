@@ -2,14 +2,16 @@ html {
   height: 100%;
 }
 
-body,
-#root { // sass-lint:disable-line no-ids
-  min-height: 100vh;
+body {
+  background: #040404;
+  color: #9f9f9f;
 }
 
-#root { // sass-lint:disable-line no-ids
-  position: relative;
+button {
+  cursor: pointer;
 }
 
 // Components
-//@import '../components/A11yLinkButton/A11yLinkButton';
+@import '../app/components/App';
+@import '../app/components/Boon';
+@import '../app/components/BoonSelector';

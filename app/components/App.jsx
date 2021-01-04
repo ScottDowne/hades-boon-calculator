@@ -1,3 +1,5 @@
+/* */
+
 import React from 'react';
 import { connect } from "react-redux";
 
@@ -42,9 +44,7 @@ class App extends React.Component {
       openPosition: boonPosition
     });
   }
-  onClose(e) {
-    // Make sure we don't also fire the main open function.
-    e.stopPropagation();
+  onClose() {
     // Close the boon selector.
     this.setState({
       open: false,
@@ -56,23 +56,29 @@ class App extends React.Component {
     const {openPosition, boons, open} = this.state;
     const boonSelectors = Object.keys(this.props.App.boons);
     return (
-      <div className="boons-container">
-        {
-          boonSelectors.map((boonPosition) => {
-            const boons = boonDataByType[boonPosition] || boonDataByType.other;
-            const selectedBoon = this.props.App.boons[boonPosition];
-            return (
-              <Boon
-                boonPosition={boonPosition}
-                openPosition={openPosition}
-                onOpen={this.onOpen}
-                boons={boons}
-                selectedBoon={selectedBoon}
-                key={boonPosition}
-              />
-            );
-          })
-        }
+      <div className="app-container">
+        <div className="boons-container">
+          {
+            boonSelectors.map((boonPosition) => {
+              // We kinda care if the boon is one of the hard standard coded types.
+              const standardBoonType = boonDataByType[boonPosition] && boonPosition;
+              const boons = boonDataByType[boonPosition] || boonDataByType.other;
+              const selectedBoon = this.props.App.boons[boonPosition];
+              return (
+                <Boon
+                  boonPosition={boonPosition}
+                  openPosition={openPosition}
+                  onOpen={this.onOpen}
+                  onClose={this.onClose}
+                  boons={boons}
+                  selectedBoon={selectedBoon}
+                  key={boonPosition}
+                  standardBoonType={standardBoonType}
+                />
+              );
+            })
+          }
+        </div>
         <BoonSelector openPosition={openPosition} boons={boons} open={open} onClose={this.onClose}/>
       </div>
     )

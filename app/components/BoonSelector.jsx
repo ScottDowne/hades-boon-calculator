@@ -80,14 +80,19 @@ class BoonSelector extends React.Component {
       return null;
     }
     // The name boons is too generic, this is more like available boons.
-    const { App, boons, openPosition, dispatch, onClose } = this.props;
+    const { App, boons, openPosition, dispatch, onClose, currentlySelectedBoon } = this.props;
     const boonSelectors = Object.keys(App.boons);
+    let clearButton = null;
 
     // Probably want to store a list of selected boons in redux and update it as a boon is added.
     // Instead of generating it on demand here.
     const selectedBoons = boonSelectors
       .filter(boonPosition => App.boons[boonPosition])
       .map(boonPosition => App.boons[boonPosition].name);
+
+    if (currentlySelectedBoon) {
+      clearButton = <button onClick={this.onClear}>clear</button>;
+    }
 
     return (
       <div className="boon-selector">
@@ -104,7 +109,7 @@ class BoonSelector extends React.Component {
             ); 
           })
         }
-        <button onClick={this.onClear}>clear</button>
+        {clearButton}
         <button onClick={onClose}>close</button>
       </div>
     )

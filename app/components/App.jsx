@@ -54,7 +54,9 @@ class App extends React.Component {
   }
   render() {
     const {openPosition, boons, open} = this.state;
-    const boonSelectors = Object.keys(this.props.App.boons);
+    const {App} = this.props;
+    const boonSelectors = Object.keys(App.boons);
+    const currentlySelectedBoon = App.boons[openPosition];
     return (
       <div className="app-container">
         <div className="boons-container">
@@ -63,7 +65,7 @@ class App extends React.Component {
               // We kinda care if the boon is one of the hard standard coded types.
               const standardBoonType = boonDataByType[boonPosition] && boonPosition;
               const boons = boonDataByType[boonPosition] || boonDataByType.other;
-              const selectedBoon = this.props.App.boons[boonPosition];
+              const selectedBoon = App.boons[boonPosition];
               return (
                 <Boon
                   boonPosition={boonPosition}
@@ -79,7 +81,13 @@ class App extends React.Component {
             })
           }
         </div>
-        <BoonSelector openPosition={openPosition} boons={boons} open={open} onClose={this.onClose}/>
+        <BoonSelector
+          openPosition={openPosition}
+          boons={boons}
+          open={open}
+          onClose={this.onClose}
+          currentlySelectedBoon={currentlySelectedBoon}
+        />
       </div>
     )
   }

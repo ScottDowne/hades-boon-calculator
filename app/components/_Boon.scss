@@ -23,8 +23,11 @@
     margin-top: -15px;
     height: 100px;
     width: 100px;
+    &.empty-image-placeholder {
+      opacity: 0.2;
+    }
   }
   &.opened {
-    box-shadow: 0px 0px 10px #f2eda9;
+    box-shadow: 0px 0px 2px yellow;
   }
 }

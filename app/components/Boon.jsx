@@ -31,11 +31,12 @@ class Boon extends React.Component {
 
     if (selectedBoonImage) {
       imageElement = <img src={`./images/${selectedBoonImage}`}/>;
+    } else if (standardBoonType) {
+      imageElement = <img className="empty-image-placeholder" src={`./images/Empty_${standardBoonType}.png`}/>;
     }
     return (
       <div title={selectedBoonName || boonPosition} className={className} onClick={this.onClick}>
         {imageElement}
-        <span>{!selectedBoonName && standardBoonType}</span>
       </div>
     )
   }

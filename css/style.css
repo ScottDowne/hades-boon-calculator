@@ -3,7 +3,9 @@ html {
 
 body {
   background: #040404;
-  color: #9f9f9f; }
+  color: #9f9f9f;
+  line-height: 20px;
+  font-size: 16px; }
 
 button {
   cursor: pointer; }
@@ -12,15 +14,14 @@ button {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 667px;
-  width: 526px;
-  margin-right: -165px;
-  justify-content: space-between; }
+  height: 612px;
+  width: 350px;
+  background: #373737;
+  padding: 25px 0; }
 
 .app-container {
   display: flex;
-  margin-top: 50px;
-  margin-left: 50px; }
+  margin: 20px 20px 0; }
 
 .boon-container {
   width: 70px;
@@ -29,25 +30,24 @@ button {
   cursor: pointer;
   transform: rotate(-45deg);
   margin: 15px;
-  overflow: hidden; }
-  .boon-container:nth-child(5) {
-    margin-bottom: 172px; }
-  .boon-container:nth-child(10) {
-    margin-bottom: 121px; }
-  .boon-container:nth-child(16) {
-    margin-bottom: 70px; }
-  .boon-container:nth-child(21) {
-    margin-bottom: 121px; }
+  overflow: hidden;
+  margin-left: 40px; }
   .boon-container:nth-child(6) {
     margin-top: 66px; }
   .boon-container:nth-child(17) {
     margin-top: 66px; }
   .boon-container:nth-child(n+6) {
-    margin-left: -130px; }
-  .boon-container:nth-child(n+11) {
-    margin-left: -173px; }
-  .boon-container:nth-child(n+17) {
-    margin-left: -216px; }
+    margin-left: -48px; }
+  .boon-container img {
+    transform: rotate(45deg);
+    margin-left: -15px;
+    margin-top: -15px;
+    height: 100px;
+    width: 100px; }
+  .boon-container.opened {
+    box-shadow: 0px 0px 10px #f2eda9; }
 
-.boon-selector .boon-selector-item {
-  cursor: pointer; }
+.boon-selector {
+  padding: 20px; }
+  .boon-selector .boon-selector-item {
+    cursor: pointer; }

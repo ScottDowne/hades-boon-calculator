@@ -3,68 +3,82 @@
     {
       "name": "Heartbreak Strike",
       "god": "Aphrodite",
-      "type": "attack"
+      "type": "attack",
+      "image": "Heartbreak_Strike.png"
     },
     {
       "name": "Heartbreak Flourish",
       "god": "Aphrodite",
-      "type": "special"
+      "type": "special",
+      "image": "Heartbreak_Flourish.png"
     },
     {
       "name": "Crush Shot",
       "god": "Aphrodite",
-      "type": "cast"
+      "type": "cast",
+      "image": "Crush_Shot.png"
     },
     {
       "name": "Passion Flare",
       "god": "Aphrodite",
-      "type": "cast"
+      "type": "cast",
+      "image": "Crush_Shot.png"
     },
     {
-      "name": "Passion Death",
+      "name": "Passion Dash",
       "god": "Aphrodite",
-      "type": "dash"
+      "type": "dash",
+      "image": "Passion_Dash.png"
     },
     {
       "name": "Aphrodite's Aid",
       "god": "Aphrodite",
-      "type": "call"
+      "type": "call",
+      "image": "Aphrodite's_Aid.png"
     },
     {
       "name": "Dying Lament",
-      "god": "Aphrodite"
+      "god": "Aphrodite",
+      "image": "Dying_Lament.png"
     },
     {
       "name": "Wave of Despair",
-      "god": "Aphrodite"
+      "god": "Aphrodite",
+      "image": "Wave_of_Despair.png"
     },
     {
       "name": "Different League",
-      "god": "Aphrodite"
+      "god": "Aphrodite",
+      "image": "Different_League.png"
     },
     {
       "name": "Life Affirmation",
-      "god": "Aphrodite"
+      "god": "Aphrodite",
+      "image": "Life_Affirmation.png"
     },
     {
       "name": "Empty Inside",
       "god": "Aphrodite",
-      "prerequisites": ["Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"]
+      "prerequisites": ["Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"],
+      "image": "Empty_Inside.png"
     },
     {
       "name": "Sweet Surrender",
       "god": "Aphrodite",
-      "prerequisites": ["Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"]
+      "prerequisites": ["Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"],
+      "image": "Sweet_Surrender.png"
     },
     {
       "name": "Broken Resolve",
       "god": "Aphrodite",
-      "prerequisites": ["Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"]
+      "prerequisites": ["Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"],
+      "image": "Broken_Resolve.png"
     },
     {
       "name": "Blown Kiss",
       "god": "Aphrodite",
-      "prerequisites": ["Crush Shot"]
+      "prerequisites": ["Crush Shot"],
+      "image": "Blown_Kiss.png"
     },
     {
       "name": "Unhealthy Fixation",
@@ -73,7 +87,8 @@
       "prerequisites": [
         "Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish",
         "Empty Inside, Sweet Surrender, Broken Resolve"
-      ]
+      ],
+      "image": "Unhealthy_Fixation.png"
     }
   ]
 }

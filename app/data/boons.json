@@ -89,6 +89,100 @@
         "Empty Inside, Sweet Surrender, Broken Resolve"
       ],
       "image": "Unhealthy_Fixation.png"
+    },
+    {
+      "name": "Curse of Agony",
+      "god": "Ares",
+      "type": "attack",
+      "image": "Curse_of_Agony.png"
+    },
+    {
+      "name": "Curse of Pain",
+      "god": "Ares",
+      "type": "special",
+      "image": "Curse_of_Pain.png"
+    },
+    {
+      "name": "Slicing Shot",
+      "god": "Ares",
+      "type": "cast",
+      "image": "Slicing_Shot.png"
+    },
+    {
+      "name": "Slicing Flare",
+      "god": "Ares",
+      "type": "cast",
+      "image": "Slicing_Shot.png"
+    },
+    {
+      "name": "Blade Dash",
+      "god": "Ares",
+      "type": "dash",
+      "image": "Blade_Dash.png"
+    },
+    {
+      "name": "Ares' Aid",
+      "god": "Ares",
+      "type": "call",
+      "image": "Ares'_Aid.png"
+    },
+    {
+      "name": "Curse of Vengeance",
+      "god": "Ares",
+      "image": "Curse_of_Vengeance.png"
+    },
+    {
+      "name": "Urge to Kill",
+      "god": "Ares",
+      "image": "Urge_to_Kill.png"
+    },
+    {
+      "name": "Battle Rage",
+      "god": "Ares",
+      "image": "Battle_Rage.png"
+    },
+    {
+      "name": "Blood Frenzy",
+      "god": "Ares",
+      "image": "Blood_Frenzy.png"
+    },
+    {
+      "name": "Black Metal",
+      "god": "Ares",
+      "image": "Black_Metal.png",
+      "prerequisites": ["Ares' Aid, Blade Dash, Slicing Flare, Slicing Shot"]
+    },
+    {
+      "name": "Engulfing Vortex",
+      "god": "Ares",
+      "image": "Engulfing_Vortex.png",
+      "prerequisites": ["Ares' Aid, Blade Dash, Slicing Flare, Slicing Shot"]
+    },
+    {
+      "name": "Dire Misfortune",
+      "god": "Ares",
+      "image": "Dire_Misfortune.png",
+      "prerequisites": ["Curse of Agony, Curse of Pain"]
+    },
+    {
+      "name": "Impending Doom",
+      "god": "Ares",
+      "image": "Impending_Doom.png",
+      "prerequisites": ["Curse of Agony, Curse of Pain, Curse of Vengeance"]
+    },
+    {
+      "name": "Vicious Cycle",
+      "god": "Ares",
+      "legendary": true,
+      "image": "Vicious_Cycle.png",
+      "prerequisites": ["Black Metal, Engulfing Vortex"]
+    },
+    {
+      "name": "Curse of Longing",
+      "god": "Aphrodite/Ares",
+      "duo": true,
+      "image": "Curse_of_Longing.png",
+      "prerequisites": ["Curse of Agony, Curse of Pain", "Crush Shot, Heartbreak Flourish, Heartbreak Strike, Passion Dash, Passion Flare"]
     }
   ]
 }

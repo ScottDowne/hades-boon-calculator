@@ -1,4 +1,6 @@
 .boon-selector {
+  height: 100%;
+  overflow-y: scroll;
   .boon-selector-item {
     cursor: pointer;
     &.unavailable {

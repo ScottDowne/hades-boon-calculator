@@ -1,7 +1,41 @@
 .boon-selector {
   .boon-selector-item {
     cursor: pointer;
+    &.unavailable {
+      img,
+      .boon-selector-title {
+        opacity: 0.6;
+      }
+      cursor: auto;
+    }
+    .boon-selector-prerequisites {
+      .prerequisite-boon-item {
+        opacity: 0.6;
+        &.selected {
+          opacity: 1;
+        }
+      }
+    }
+    &.selected {
+      box-shadow: 0px 0px 1px 1px yellow;
+    }
+    .boon-selector-item-inner {
+      display: flex;
+    }
+    img {
+      height: 75px;
+      width: 75px;
+    }
+    .boon-selector-text {
+      margin: 0 5px;
+    }
+    padding: 5px;
+    border: 1px solid #725e2c;
+    margin: 10px 0;
+    &:first-child {
+      margin-top: 0;
+    }
   }
 
-  padding: 20px;
+  margin: 0 20px;
 }

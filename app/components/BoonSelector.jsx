@@ -36,19 +36,78 @@ class SelectorItem extends React.Component {
     }
     return available;
   }
+  renderPrerequisites() {
+    const { boon, selectedBoons } = this.props;
+    if (!boon.prerequisites?.length) {
+      return null;
+    }
+    return (
+      <div className="boon-selector-prerequisites">
+        {
+          boon.prerequisites.map((prerequisite) => {
+            const prerequisiteSplit = prerequisite.split(", ");
+            return (
+              <div>
+                {
+                  prerequisiteSplit.map((prerequisiteBoon, index) => {
+                    const isLast = (prerequisiteSplit.length-1) === index;
+                    let className = "prerequisite-boon-item";
+                    let content = `${prerequisiteBoon}, `;
+                    if (isLast) {
+                      content = `${prerequisiteBoon}`;
+                    }
+                    let selected = false;
+                    console.log(prerequisiteBoon, selectedBoons);
+                    console.log(selectedBoons.includes(prerequisiteBoon));
+                    if (selectedBoons.includes(prerequisiteBoon)) {
+                      className += " selected";
+                    }
+                    return (
+                      <span className={className}>{content}</span>
+                    );
+                  })
+                }
+              </div>
+            );
+          })
+        }
+      </div>
+    );
+  }
   render() {
-    const { boon } = this.props;
+    const { boon, currentlySelectedBoon, selectedBoons } = this.props;
+    const isBoonAvailable = this.isBoonAvailable();
     let available = true;
-    if (this.isBoonAvailable()) {
+    let className = "boon-selector-item";
+    const boonImage = boon?.image;
+    const boonDetails = (
+      <div className="boon-selector-item-inner">
+        <img src={`./images/${boonImage}`}/>
+        <div className="boon-selector-text">
+          <div className="boon-selector-title">{boon.name}</div>
+          {this.renderPrerequisites()}
+        </div>
+      </div>
+    );
+
+    const isCurrentlySelectedBoon = currentlySelectedBoon?.name === boon.name;
+    const isSelected = selectedBoons.includes(boon.name);
+
+    if (!isBoonAvailable || isCurrentlySelectedBoon || isSelected) {
+      if (isCurrentlySelectedBoon) {
+        className += " selected";
+      } else {
+        className += " unavailable";
+      }
       return (
-        <div className="boon-selector-item" onClick={this.addBoon}>
-          {boon.name}
+        <div className={className}>
+          {boonDetails}
         </div>
       );
     }
     return (
-      <div className="boon-selector-item">
-        {boon.name} unavailable
+      <div className={className} onClick={this.addBoon}>
+        {boonDetails}
       </div>
     );
   }
@@ -69,7 +128,7 @@ class BoonSelector extends React.Component {
         position: openPosition
       }
     });
-    this.props.onClose();
+    //this.props.onClose();
   }
   onClear() {
     // This just adds a null boon to this position, which is the initial empty state.
@@ -94,19 +153,23 @@ class BoonSelector extends React.Component {
       clearButton = <button onClick={this.onClear}>clear</button>;
     }
 
+    /*const availableBoons = boons.filter(boon => {
+      return !selectedBoons.includes(boon.name);
+    });*/
+
     return (
       <div className="boon-selector">
-        <div>boon selector</div>
         {
-          boons.map((boon) => {     
+          boons.map((boon) => {
             return (
               <SelectorItem
                 key={boon.name}
                 boon={boon}
+                currentlySelectedBoon={currentlySelectedBoon}
                 selectedBoons={selectedBoons}
                 addBoon={this.addBoon}
               />
-            ); 
+            );
           })
         }
         {clearButton}

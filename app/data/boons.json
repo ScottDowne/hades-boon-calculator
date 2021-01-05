@@ -503,6 +503,128 @@
       "duo": true,
       "image": "Stubborn_Roots.png",
       "prerequisites": ["Frost Strike, Mistral Dash, Frost Flourish, Crystal Beam, Demeter's Aid", "Divine Strike, Divine Flourish, Phalanx Shot, Divine Dash, Athena's Aid"]
+    },
+    {
+      "name": "Drunken Strike",
+      "god": "Dionysus",
+      "type": "attack",
+      "image": "Drunken_Strike.png"
+    },
+    {
+      "name": "Drunken Flourish",
+      "god": "Dionysus",
+      "type": "special",
+      "image": "Drunken_Flourish.png"
+    },
+    {
+      "name": "Trippy Shot",
+      "god": "Dionysus",
+      "type": "cast",
+      "image": "Trippy_Shot.png"
+    },
+    {
+      "name": "Trippy Flare",
+      "god": "Dionysus",
+      "type": "cast",
+      "image": "Trippy_Shot.png"
+    },
+    {
+      "name": "Drunken Dash",
+      "god": "Dionysus",
+      "type": "dash",
+      "image": "Drunken_Dash.png"
+    },
+    {
+      "name": "Dionysus' Aid",
+      "god": "Dionysus",
+      "type": "call",
+      "image": "Dionysus'_Aid.png"
+    },
+    {
+      "name": "After Party",
+      "god": "Dionysus",
+      "image": "After_Party.png"
+    },
+    {
+      "name": "Positive Outlook",
+      "god": "Dionysus",
+      "image": "Positive_Outlook.png"
+    },
+    {
+      "name": "Premium Vintage",
+      "god": "Dionysus",
+      "image": "Premium_Vintage.png"
+    },
+    {
+      "name": "Strong Drink",
+      "god": "Dionysus",
+      "image": "Strong_Drink.png"
+    },
+    {
+      "name": "Bad Influence",
+      "god": "Dionysus",
+      "image": "Bad_Influence.png",
+      "prerequisites": ["Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike"]
+    },
+    {
+      "name": "Numbing Sensation",
+      "god": "Dionysus",
+      "image": "Numbing_Sensation.png",
+      "prerequisites": ["Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike"]
+    },
+    {
+      "name": "Peer Pressure",
+      "god": "Dionysus",
+      "image": "Numbing_Sensation.png",
+      "prerequisites": ["Drunken Dash, Drunken Flourish, Drunken Strike"]
+    },
+    {
+      "name": "High Tolerance",
+      "god": "Dionysus",
+      "image": "High_Tolerance.png",
+      "prerequisites": ["Trippy Shot, Trippy Flare"]
+    },
+    {
+      "name": "Black Out",
+      "god": "Dionysus",
+      "legendary": true,
+      "image": "High_Tolerance.png",
+      "prerequisites": ["Drunken Strike, Drunken Flourish, Drunken Dash, Dionysus' Aid", "Trippy Shot, Trippy Flare"]
+    },
+    {
+      "name": "Low Tolerance",
+      "god": "Dionysus/Aphrodite",
+      "duo": true,
+      "image": "Low_Tolerance.png",
+      "prerequisites": ["Drunken Strike, Drunken Flourish, Drunken Dash, Dionysus' Aid", "Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"]
+    },
+    {
+      "name": "Curse of Nausea",
+      "god": "Dionysus/Ares",
+      "duo": true,
+      "image": "Curse_of_Nausea.png",
+      "prerequisites": ["Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike", "Curse of Agony, Curse of Pain, Curse of Vengeance"]
+    },
+    {
+      "name": "Splitting Headache",
+      "god": "Dionysus/Artemis",
+      "duo": true,
+      "image": "Splitting_Headache.png",
+      "prerequisites": ["Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike", "Artemis' Aid, Deadly Flourish, Deadly Strike, True Shot"]
+    },
+    {
+      "name": "Calculated Risk",
+      "god": "Dionysus/Athena",
+      "duo": true,
+      "image": "Calculated_Risk.png",
+      "prerequisites": ["Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike", "Athena's Aid, Divine Dash, Divine Flourish, Divine Strike"]
+    },
+    {
+      "name": "Ice Wine",
+      "god": "Dionysus/Demeter",
+      "duo": true,
+      "image": "Ice_Wine.png",
+      "prerequisites": ["Trippy Shot", "Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash"]
     }
   ]
 }

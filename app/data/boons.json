@@ -388,6 +388,121 @@
       "duo": true,
       "image": "Deadly_Reversal.png",
       "prerequisites": ["Divine Strike, Divine Flourish", "Deadly Strike, Deadly Flourish, True Shot, Artemis' Aid"]
+    },
+    {
+
+      "name": "Frost Strike",
+      "god": "Demeter",
+      "type": "attack",
+      "image": "Frost_Strike.png"
+    },
+    {
+      "name": "Frost Flourish",
+      "god": "Demeter",
+      "type": "special",
+      "image": "Frost_Flourish.png"
+    },
+    {
+      "name": "Crystal Beam",
+      "god": "Demeter",
+      "type": "cast",
+      "image": "Crystal_Beam.png"
+    },
+    {
+      "name": "Icy Flare",
+      "god": "Demeter",
+      "type": "cast",
+      "image": "Crystal_Beam.png"
+    },
+    {
+      "name": "Mistral Dash",
+      "god": "Demeter",
+      "type": "dash",
+      "image": "Mistral_Dash.png"
+    },
+    {
+      "name": "Demeter's Aid",
+      "god": "Demeter",
+      "type": "call",
+      "image": "Demeter's_Aid.png"
+    },
+    {
+      "name": "Frozen Touch",
+      "god": "Demeter",
+      "image": "Frozen_Touch.png"
+    },
+    {
+      "name": "Rare Crop",
+      "god": "Demeter",
+      "image": "Rare_Crop.png"
+    },
+    {
+      "name": "Ravenous Will",
+      "god": "Demeter",
+      "image": "Ravenous_Will.png"
+    },
+    {
+      "name": "Nourished Soul",
+      "god": "Demeter",
+      "image": "Nourished_Soul.png"
+    },
+    {
+      "name": "Snow Burst",
+      "god": "Demeter",
+      "image": "Snow_Burst.png"
+    },
+    {
+      "name": "Arctic Blast",
+      "god": "Demeter",
+      "image": "Arctic_Blast.png",
+      "prerequisites": ["Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash, Snow Burst"]
+    },
+    {
+      "name": "Killing Freeze",
+      "god": "Demeter",
+      "image": "Killing_Freeze.png",
+      "prerequisites": ["Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash, Snow Burst"]
+    },
+    {
+      "name": "Glacial Glare",
+      "god": "Demeter",
+      "image": "Glacial_Glare.png",
+      "prerequisites": ["Crystal Beam"]
+    },
+    {
+      "name": "Winter Harvest",
+      "god": "Demeter",
+      "legendary": true,
+      "image": "Winter_Harvest.png",
+      "prerequisites": ["Arctic Blast, Ravenous Will, Killing Freeze", "Arctic Blast, Ravenous Will, Killing Freeze"]
+    },
+    {
+      "name": "Cold Embrace",
+      "god": "Demeter/Aphrodite",
+      "duo": true,
+      "image": "Cold_Embrace.png",
+      "prerequisites": ["Crystal Beam", "Heartbreak Strike, Passion Dash, Heartbreak Flourish, Aphrodite's Aid"]
+    },
+    {
+      "name": "Freezing Vortex",
+      "god": "Demeter/Ares",
+      "duo": true,
+      "image": "Freezing_Vortex.png",
+      "prerequisites": ["Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash", "Slicing Shot, Slicing Flare"]
+    },
+    {
+      "name": "Crystal Clarity",
+      "god": "Demeter/Artemis",
+      "duo": true,
+      "image": "Crystal_Clarity.png",
+      "prerequisites": ["Crystal Beam", "Artemis' Aid, Deadly Flourish, Deadly Strike, Hunter Dash"]
+    },
+    {
+      "name": "Stubborn Roots",
+      "god": "Demeter/Athena",
+      "duo": true,
+      "image": "Stubborn_Roots.png",
+      "prerequisites": ["Frost Strike, Mistral Dash, Frost Flourish, Crystal Beam, Demeter's Aid", "Divine Strike, Divine Flourish, Phalanx Shot, Divine Dash, Athena's Aid"]
     }
   ]
 }

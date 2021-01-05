@@ -625,6 +625,374 @@
       "duo": true,
       "image": "Ice_Wine.png",
       "prerequisites": ["Trippy Shot", "Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash"]
+    },
+    {
+      "name": "Swift Strike",
+      "god": "Hermes",
+      "image": "Swift_Strike.png"
+    },
+    {
+      "name": "Swift Flourish",
+      "god": "Hermes",
+      "image": "Swift_Flourish.png"
+    },
+    {
+      "name": "Flurry Cast",
+      "god": "Hermes",
+      "image": "Flurry_Cast.png"
+    },
+    {
+      "name": "Quick Favor",
+      "god": "Hermes",
+      "image": "Quick_Favor.png",
+      "prerequisites": ["Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"]
+    },
+    {
+      "name": "Hyper Sprint",
+      "god": "Hermes",
+      "image": "Hyper_Sprint.png"
+    },
+    {
+      "name": "Greater Haste",
+      "god": "Hermes",
+      "image": "Greater_Haste.png"
+    },
+    {
+      "name": "Quick Recovery",
+      "god": "Hermes",
+      "image": "Quick_Recovery.png"
+    },
+    {
+      "name": "Greater Evasion",
+      "god": "Hermes",
+      "image": "Greater_Evasion.png"
+    },
+    {
+      "name": "Greatest Reflex",
+      "god": "Hermes",
+      "image": "Greatest_Reflex.png"
+    },
+    {
+      "name": "Second Wind",
+      "god": "Hermes",
+      "image": "Second_Wind.png",
+      "prerequisites": ["Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"]
+    },
+    {
+      "name": "Quick Reload",
+      "god": "Hermes",
+      "image": "Quick_Reload.png"
+    },
+    {
+      "name": "Side Hustle",
+      "god": "Hermes",
+      "image": "Side_Hustle.png"
+    },
+    {
+      "name": "Rush Delivery",
+      "god": "Hermes",
+      "image": "Rush_Delivery.png",
+      "prerequisites": ["Greater Haste, Hyper Sprint, Lambent Plume"]
+    },
+    {
+      "name": "Auto Reload",
+      "god": "Hermes",
+      "image": "Auto_Reload.png"
+    },
+    {
+      "name": "Greater Recall",
+      "legendary": true,
+      "god": "Hermes",
+      "image": "Greater_Recall.png",
+      "prerequisites": ["Flurry Cast, Quick Reload,, Lambent Plume"]
+    },
+    {
+      "name": "Bad News",
+      "legendary": true,
+      "god": "Hermes",
+      "image": "Bad_News.png",
+      "prerequisites": ["Auto Reload, Lambent Plume"]
+    },
+    {
+      "name": "Tempest Strike",
+      "god": "Poseidon",
+      "type": "attack",
+      "image": "Tempest_Strike.png"
+    },
+    {
+      "name": "Tempest Flourish",
+      "god": "Poseidon",
+      "type": "special",
+      "image": "Tempest_Flourish.png"
+    },
+    {
+      "name": "Flood Shot",
+      "god": "Poseidon",
+      "type": "cast",
+      "image": "Flood_Shot.png"
+    },
+    {
+      "name": "Flood Flare",
+      "god": "Poseidon",
+      "type": "cast",
+      "image": "Flood_Shot.png"
+    },
+    {
+      "name": "Tidal Dash",
+      "god": "Poseidon",
+      "type": "dash",
+      "image": "Tidal_Dash.png"
+    },
+    {
+      "name": "Poseidon's Aid",
+      "god": "Poseidon",
+      "type": "call",
+      "image": "Poseidon's_Aid.png"
+    },
+    {
+      "name": "Typhoon's Fury",
+      "god": "Poseidon",
+      "image": "Typhoon's_Fury.png",
+      "prerequisites": ["Tempest Strike, Tidal Dash, Flood Shot, Tempest Flourish, Poseidon's Aid"]
+    },
+    {
+      "name": "Hydraulic Might",
+      "god": "Poseidon",
+      "image": "Hydraulic_Might.png"
+    },
+    {
+      "name": "Ocean's Bounty",
+      "god": "Poseidon",
+      "image": "Ocean's_Bounty.png"
+    },
+    {
+      "name": "Sunken Treasure",
+      "god": "Poseidon",
+      "image": "Sunken_Treasure.png"
+    },
+    {
+      "name": "Razor Shoals",
+      "god": "Poseidon",
+      "image": "Razor_Shoals.png",
+      "prerequisites": ["Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash"]
+    },
+    {
+      "name": "Boiling Point",
+      "god": "Poseidon",
+      "image": "Boiling_Point.png",
+      "prerequisites": ["Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"]
+    },
+    {
+      "name": "Breaking Wave",
+      "god": "Poseidon",
+      "image": "Breaking_Wave.png",
+      "prerequisites": ["Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash"]
+    },
+    {
+      "name": "Wave Pounding",
+      "god": "Poseidon",
+      "image": "Wave_Pounding.png",
+      "prerequisites": ["Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash"]
+    },
+    {
+      "name": "Rip Current",
+      "god": "Poseidon",
+      "image": "Rip_Current.png",
+      "prerequisites": ["Poseidon's Aid"]
+    },
+    {
+      "name": "Huge Catch",
+      "god": "Poseidon",
+      "legendary": true,
+      "image": "Huge_Catch.png",
+      "prerequisites": ["Ocean's Bounty, Sunken Treasure", "Ocean's Bounty, Sunken Treasure"]
+    },
+    {
+      "name": "Second Wave",
+      "god": "Poseidon",
+      "legendary": true,
+      "image": "Second_Wave.png",
+      "prerequisites": ["Breaking Wave, Typhoon's Fury", "Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash"]
+    },
+    {
+      "name": "Sweet Nectar",
+      "god": "Poseidon/Aphrodite",
+      "duo": true,
+      "image": "Sweet_Nectar.png",
+      "prerequisites": ["Tempest Strike, Tempest Flourish, Flood Shot, Tidal Dash, Poseidon's Aid", "Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish, Aphrodite's Aid"]
+    },
+    {
+      "name": "Curse of Drowning",
+      "god": "Poseidon/Ares",
+      "duo": true,
+      "image": "Curse_of_Drowning.png",
+      "prerequisites": ["Flood Shot", "Ares' Aid, Blade Dash, Curse of Agony, Curse of Pain"]
+    },
+    {
+      "name": "Mirage Shot",
+      "god": "Poseidon/Artemis",
+      "duo": true,
+      "image": "Mirage_Shot.png",
+      "prerequisites": ["Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash", "Artemis' Aid, Deadly Flourish, Deadly Strike, True Shot"]
+    },
+    {
+      "name": "Unshakable Mettle",
+      "god": "Poseidon/Athena",
+      "duo": true,
+      "image": "Unshakable_Mettle.png",
+      "prerequisites": ["Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash", "Athena's Aid, Divine Dash, Divine Flourish, Divine Strike, Phalanx Shot"]
+    },
+    {
+      "name": "Blizzard Shot",
+      "god": "Poseidon/Demeter",
+      "duo": true,
+      "image": "Blizzard_Shot.png",
+      "prerequisites": ["Flood Shot", "Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash"]
+    },
+    {
+      "name": "Exclusive Access",
+      "god": "Poseidon/Dionysus",
+      "duo": true,
+      "image": "Exclusive_Access.png",
+      "prerequisites": ["Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash", "Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike, Trippy Shot"]
+    },
+    {
+      "name": "Lightning Strike",
+      "god": "Zeus",
+      "type": "attack",
+      "image": "Lightning_Strike.png"
+    },
+    {
+      "name": "Thunder Flourish",
+      "god": "Zeus",
+      "type": "special",
+      "image": "Thunder_Flourish.png"
+    },
+    {
+      "name": "Electric Shot",
+      "god": "Zeus",
+      "type": "cast",
+      "image": "Electric_Shot.png"
+    },
+    {
+      "name": "Thunder Flare",
+      "god": "Zeus",
+      "type": "cast",
+      "image": "Electric_Shot.png"
+    },
+    {
+      "name": "Thunder Dash",
+      "god": "Zeus",
+      "type": "dash",
+      "image": "Thunder_Dash.png"
+    },
+    {
+      "name": "Zeus' Aid",
+      "god": "Zeus",
+      "type": "call",
+      "image": "Zeus'_Aid.png"
+    },
+    {
+      "name": "Heaven's Vengeance",
+      "god": "Zeus",
+      "image": "Heaven's_Vengeance.png"
+    },
+    {
+      "name": "Lightning Reflexes",
+      "god": "Zeus",
+      "image": "Lightning_Reflexes.png"
+    },
+    {
+      "name": "Storm Lightning",
+      "god": "Zeus",
+      "image": "Storm_Lightning.png",
+      "prerequisites": ["Electric Shot, Lightning Strike"]
+    },
+    {
+      "name": "High Voltage",
+      "god": "Zeus",
+      "image": "High_Voltage.png",
+      "prerequisites": ["Thunder Dash, Thunder Flourish, Zeus' Aid"]
+    },
+    {
+      "name": "Double Strike",
+      "god": "Zeus",
+      "image": "Double_Strike.png",
+      "prerequisites": ["Thunder Dash, Thunder Flourish, Zeus' Aid"]
+    },
+    {
+      "name": "Static Discharge",
+      "god": "Zeus",
+      "image": "Static_Discharge.png",
+      "prerequisites": ["Thunder Flourish, Zeus' Aid, Thunder Dash, Heaven's Vengeance, Lightning Strike, Electric Shot, Lightning Reflexes"]
+    },
+    {
+      "name": "Clouded Judgment",
+      "god": "Zeus",
+      "image": "Clouded_Judgment.png",
+      "prerequisites": ["Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"]
+    },
+    {
+      "name": "Billowing Strength",
+      "god": "Zeus",
+      "image": "Billowing_Strength.png",
+      "prerequisites": ["Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"]
+    },
+    {
+      "name": "Splitting Bolt",
+      "god": "Zeus",
+      "legendary": true,
+      "image": "Splitting_Bolt.png",
+      "prerequisites": ["Double Strike, High Voltage, Storm Lightning"]
+    },
+    {
+      "name": "Smoldering Air",
+      "god": "Zeus/Aphrodite",
+      "duo": true,
+      "image": "Smoldering_Air.png",
+      "prerequisites": ["Lightning Strike, Thunder Dash, Thunder Flourish, Electric Shot, Zeus' Aid", "Heartbreak Strike, Heartbreak Flourish, Crush Shot, Passion Dash, Aphrodite's Aid"]
+    },
+    {
+      "name": "Vengeful Mood",
+      "god": "Zeus/Ares",
+      "duo": true,
+      "image": "Vengeful_Mood.png",
+      "prerequisites": ["Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid", "Ares' Aid, Blade Dash, Curse of Agony, Curse of Pain, Slicing Shot", "Curse of Vengeance, Frozen Touch, Heaven's Vengeance, Holy Shield, Wave of Despair"]
+    },
+    {
+      "name": "Lightning Rod",
+      "god": "Zeus/Artemis",
+      "duo": true,
+      "image": "Lightning_Rod.png",
+      "prerequisites": ["Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid","Artemis' Aid, Deadly Flourish, Deadly Strike, Hunter Dash, True Shot"]
+    },
+    {
+      "name": "Lightning Phalanx",
+      "god": "Zeus/Athena",
+      "duo": true,
+      "image": "Lightning_Phalanx.png",
+      "prerequisites": ["Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid", "Phalanx Shot"]
+    },
+    {
+      "name": "Cold Fusion",
+      "god": "Zeus/Demeter",
+      "duo": true,
+      "image": "Cold_Fusion.png",
+      "prerequisites": ["Static Discharge", "Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash"]
+    },
+    {
+      "name": "Scintillating Feast",
+      "god": "Zeus/Dionysus",
+      "duo": true,
+      "image": "Scintillating_Feast.png",
+      "prerequisites": ["Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid", "High Tolerance Trippy Shot"]
+    },
+    {
+      "name": "Sea Storm",
+      "god": "Zeus/Poseidon",
+      "duo": true,
+      "image": "Sea_Storm.png",
+      "prerequisites": ["Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid", "Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike"]
     }
   ]
 }

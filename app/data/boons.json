@@ -281,6 +281,113 @@
       "duo": true,
       "image": "Hunting_Blades.png",
       "prerequisites": ["Artemis' Aid, Deadly Flourish, Deadly Strike, Hunter Dash", "Slicing Flare, Slicing Shot"]
+    },
+    {
+      "name": "Divine Strike",
+      "god": "Athena",
+      "type": "attack",
+      "image": "Divine_Strike.png"
+    },
+    {
+      "name": "Divine Flourish",
+      "god": "Athena",
+      "type": "special",
+      "image": "Divine_Flourish.png"
+    },
+    {
+      "name": "Phalanx Shot",
+      "god": "Athena",
+      "type": "cast",
+      "image": "Phalanx_Shot.png"
+    },
+    {
+      "name": "Phalanx Flare",
+      "god": "Athena",
+      "type": "cast",
+      "image": "Phalanx_Shot.png"
+    },
+    {
+      "name": "Divine Dash",
+      "god": "Athena",
+      "type": "dash",
+      "image": "Divine_Dash.png"
+    },
+    {
+      "name": "Athena's Aid",
+      "god": "Athena",
+      "type": "call",
+      "image": "Athena's_Aid.png"
+    },
+    {
+      "name": "Holy Shield",
+      "god": "Athena",
+      "image": "Holy_Shield.png"
+    },
+    {
+      "name": "Bronze Skin",
+      "god": "Athena",
+      "image": "Bronze_Skin.png"
+    },
+    {
+      "name": "Sure Footing",
+      "god": "Athena",
+      "image": "Sure_Footing.png"
+    },
+    {
+      "name": "Proud Bearing",
+      "god": "Athena",
+      "image": "Proud_Bearing.png",
+      "prerequisites": ["Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"]
+    },
+    {
+      "name": "Blinding Flash",
+      "god": "Athena",
+      "image": "Blinding_Flash.png",
+      "prerequisites": ["Divine Strike, Phalanx Shot, Divine Dash, Divine Flourish"]
+    },
+    {
+      "name": "Brilliant Riposte",
+      "god": "Athena",
+      "image": "Brilliant_Riposte.png",
+      "prerequisites": ["Divine Strike, Divine Dash, Holy Shield, Divine Flourish"]
+    },
+    {
+      "name": "Deathless Stand",
+      "god": "Athena",
+      "image": "Deathless_Stand.png"
+    },
+    {
+      "name": "Last Stand",
+      "god": "Athena",
+      "image": "Last_Stand.png"
+    },
+    {
+      "name": "Divine Protection",
+      "god": "Athena",
+      "legendary": true,
+      "image": "Divine_Protection.png",
+      "prerequisites": ["Brilliant Riposte"]
+    },
+    {
+      "name": "Parting Shot",
+      "god": "Athena/Aphrodite",
+      "duo": true,
+      "image": "Parting_Shot.png",
+      "prerequisites": ["Divine Strike, Phalanx Shot, Divine Flourish, Divine Dash, Athena's Aid", "Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish, Aphrodite's Aid"]
+    },
+    {
+      "name": "Merciful End",
+      "god": "Athena/Ares",
+      "duo": true,
+      "image": "Merciful_End.png",
+      "prerequisites": ["Divine Strike, Divine Flourish", "Curse of Agony, Curse of Pain"]
+    },
+    {
+      "name": "Deadly Reversal",
+      "god": "Athena/Artemis",
+      "duo": true,
+      "image": "Deadly_Reversal.png",
+      "prerequisites": ["Divine Strike, Divine Flourish", "Deadly Strike, Deadly Flourish, True Shot, Artemis' Aid"]
     }
   ]
 }

@@ -16,9 +16,10 @@ button {
 
 .boons-container {
   display: flex;
+  flex-shrink: 0;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 612px;
+  height: 672px;
   width: 350px;
   background: #373737;
   padding: 25px 0; }
@@ -27,7 +28,7 @@ button {
   display: flex;
   padding: 20px;
   height: 100%;
-  min-height: 662px;
+  min-height: 702px;
   box-sizing: border-box; }
 
 .boon-container {
@@ -36,13 +37,13 @@ button {
   border: 1px solid #725e2c;
   cursor: pointer;
   transform: rotate(-45deg);
-  margin: 15px;
+  margin: 20px;
   overflow: hidden;
   margin-left: 40px; }
   .boon-container:nth-child(6) {
-    margin-top: 66px; }
+    margin-top: 77px; }
   .boon-container:nth-child(17) {
-    margin-top: 66px; }
+    margin-top: 77px; }
   .boon-container:nth-child(n+6) {
     margin-left: -48px; }
   .boon-container img {
@@ -56,32 +57,34 @@ button {
   .boon-container.opened {
     box-shadow: 0px 0px 1px 1px yellow; }
 
-.boon-selector {
+.boon-selector-container {
   height: 100%;
-  overflow-y: scroll;
   margin: 0 20px; }
-  .boon-selector .boon-selector-item {
+  .boon-selector-container .boon-selector-scroller {
+    max-height: 100%;
+    overflow-y: auto; }
+  .boon-selector-container .boon-selector-item {
     cursor: pointer;
     padding: 5px;
     border: 1px solid #725e2c;
     margin: 10px 0; }
-    .boon-selector .boon-selector-item.unavailable {
+    .boon-selector-container .boon-selector-item.unavailable {
       cursor: auto; }
-      .boon-selector .boon-selector-item.unavailable img,
-      .boon-selector .boon-selector-item.unavailable .boon-selector-title {
+      .boon-selector-container .boon-selector-item.unavailable img,
+      .boon-selector-container .boon-selector-item.unavailable .boon-selector-title {
         opacity: 0.6; }
-    .boon-selector .boon-selector-item .boon-selector-prerequisites .prerequisite-boon-item {
+    .boon-selector-container .boon-selector-item .boon-selector-prerequisites .prerequisite-boon-item {
       opacity: 0.6; }
-      .boon-selector .boon-selector-item .boon-selector-prerequisites .prerequisite-boon-item.selected {
+      .boon-selector-container .boon-selector-item .boon-selector-prerequisites .prerequisite-boon-item.selected {
         opacity: 1; }
-    .boon-selector .boon-selector-item.selected {
+    .boon-selector-container .boon-selector-item.selected {
       box-shadow: 0px 0px 1px 1px yellow; }
-    .boon-selector .boon-selector-item .boon-selector-item-inner {
+    .boon-selector-container .boon-selector-item .boon-selector-item-inner {
       display: flex; }
-    .boon-selector .boon-selector-item img {
+    .boon-selector-container .boon-selector-item img {
       height: 75px;
       width: 75px; }
-    .boon-selector .boon-selector-item .boon-selector-text {
+    .boon-selector-container .boon-selector-item .boon-selector-text {
       margin: 0 5px; }
-    .boon-selector .boon-selector-item:first-child {
+    .boon-selector-container .boon-selector-item:first-child {
       margin-top: 0; }

@@ -16,6 +16,7 @@ class SelectorItem extends React.Component {
   isBoonAvailable() {
     const { boon, selectedBoons } = this.props;
     let available = true;
+    const prerequisiteUsed = [];
     // If boon doesn't have any prerequisites, it is tier 1 and available by default.
     if (boon.prerequisites?.length) {
       // Loop through prerequisites array, and see if any selected Boons match.
@@ -23,7 +24,8 @@ class SelectorItem extends React.Component {
         let selectedAvailable = false;
         // Go through each currently selected boon until we find a match.
         for (const selectedBoon of selectedBoons) {
-          if (prerequisite.includes(selectedBoon)) {
+          if (!prerequisiteUsed.includes(selectedBoon) && prerequisite.includes(selectedBoon)) {
+            prerequisiteUsed.push(selectedBoon);
             selectedAvailable = true;
             break;
           }
@@ -41,11 +43,13 @@ class SelectorItem extends React.Component {
     if (!boon.prerequisites?.length) {
       return null;
     }
+    const prerequisiteUsed = [];
     return (
       <div className="boon-selector-prerequisites">
         {
           boon.prerequisites.map((prerequisite) => {
             const prerequisiteSplit = prerequisite.split(", ");
+            let found = false;
             return (
               <div>
                 {
@@ -57,9 +61,10 @@ class SelectorItem extends React.Component {
                       content = `${prerequisiteBoon}`;
                     }
                     let selected = false;
-                    console.log(prerequisiteBoon, selectedBoons);
-                    console.log(selectedBoons.includes(prerequisiteBoon));
-                    if (selectedBoons.includes(prerequisiteBoon)) {
+                    // Ideally we 
+                    if (!found && !prerequisiteUsed.includes(prerequisiteBoon) && selectedBoons.includes(prerequisiteBoon)) {
+                      prerequisiteUsed.push(prerequisiteBoon);
+                      found = true;
                       className += " selected";
                     }
                     return (
@@ -158,22 +163,24 @@ class BoonSelector extends React.Component {
     });*/
 
     return (
-      <div className="boon-selector">
-        {
-          boons.map((boon) => {
-            return (
-              <SelectorItem
-                key={boon.name}
-                boon={boon}
-                currentlySelectedBoon={currentlySelectedBoon}
-                selectedBoons={selectedBoons}
-                addBoon={this.addBoon}
-              />
-            );
-          })
-        }
-        {clearButton}
-        <button onClick={onClose}>close</button>
+      <div className="boon-selector-container">
+        <div className="boon-selector-scroller">
+          {
+            boons.map((boon) => {
+              return (
+                <SelectorItem
+                  key={boon.name}
+                  boon={boon}
+                  currentlySelectedBoon={currentlySelectedBoon}
+                  selectedBoons={selectedBoons}
+                  addBoon={this.addBoon}
+                />
+              );
+            })
+          }
+          {clearButton}
+          <button onClick={onClose}>close</button>
+        </div>
       </div>
     )
   }

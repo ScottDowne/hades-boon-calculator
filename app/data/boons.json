@@ -183,6 +183,104 @@
       "duo": true,
       "image": "Curse_of_Longing.png",
       "prerequisites": ["Curse of Agony, Curse of Pain", "Crush Shot, Heartbreak Flourish, Heartbreak Strike, Passion Dash, Passion Flare"]
+    },
+    {
+      "name": "Deadly Strike",
+      "god": "Artemis",
+      "type": "attack",
+      "image": "Deadly_Strike.png"
+    },
+    {
+      "name": "Deadly Flourish",
+      "god": "Artemis",
+      "type": "special",
+      "image": "Deadly_Flourish.png"
+    },
+    {
+      "name": "True Shot",
+      "god": "Artemis",
+      "type": "cast",
+      "image": "True_Shot.png"
+    },
+    {
+      "name": "Hunter's Flare",
+      "god": "Artemis",
+      "type": "cast",
+      "image": "True_Shot.png"
+    },
+    {
+      "name": "Hunter Dash",
+      "god": "Artemis",
+      "type": "dash",
+      "image": "Hunter_Dash.png"
+    },
+    {
+      "name": "Artemis' Aid",
+      "god": "Artemis",
+      "type": "call",
+      "image": "Artemis'_Aid.png"
+    },
+    {
+      "name": "Pressure Points",
+      "god": "Artemis",
+      "image": "Pressure_Points.png"
+    },
+    {
+      "name": "Exit Wounds",
+      "god": "Artemis",
+      "image": "Exit_Wounds.png",
+      "prerequisites": ["Crush Shot, Electric Shot, Flood Shot, Phalanx Shot, True Shot"]
+    },
+    {
+      "name": "Hide Breaker",
+      "god": "Artemis",
+      "image": "Hide_Breaker.png",
+      "prerequisites": ["Artemis' Aid, Deadly Flourish, Deadly Strike, Pressure Points, True Shot"]
+    },
+    {
+      "name": "Clean Kill",
+      "god": "Artemis",
+      "image": "Clean_Kill.png",
+      "prerequisites": ["Artemis' Aid, Deadly Flourish, Deadly Strike, Pressure Points, True Shot"]
+    },
+    {
+      "name": "Hunter Instinct",
+      "god": "Artemis",
+      "image": "Hunter_Instinct.png",
+      "prerequisites": ["Deadly Flourish, Deadly Strike, Pressure Points, True Shot"]
+    },
+    {
+      "name": "Hunter's Mark",
+      "god": "Artemis",
+      "image": "Hunter's_Mark.png",
+      "prerequisites": ["Artemis' Aid, Deadly Flourish, Deadly Strike, Hunter Dash, Pressure Points, True Shot"]
+    },
+    {
+      "name": "Support Fire",
+      "god": "Artemis",
+      "image": "Support_Fire.png",
+      "prerequisites": ["Artemis' Aid, Deadly Flourish, Deadly Strike, Hunter Dash, Pressure Points, True Shot"]
+    },
+    {
+      "name": "Fully Loaded",
+      "god": "Artemis",
+      "legendary": true,
+      "image": "Fully_Loaded.png",
+      "prerequisites": ["Exit Wounds, Pressure Points, Support Fire", "Exit Wounds, Pressure Points, Support Fire"]
+    },
+    {
+      "name": "Heart Rend",
+      "god": "Artemis/Aphrodite",
+      "duo": true,
+      "image": "Heart_Rend.png",
+      "prerequisites": ["Deadly Flourish, Deadly Strike, Hunter's Flare, True Shot", "Crush Shot, Heartbreak Flourish, Heartbreak Strike, Passion Dash, Passion Flare"]
+    },
+    {
+      "name": "Hunting Blades",
+      "god": "Artemis/Ares",
+      "duo": true,
+      "image": "Hunting_Blades.png",
+      "prerequisites": ["Artemis' Aid, Deadly Flourish, Deadly Strike, Hunter Dash", "Slicing Flare, Slicing Shot"]
     }
   ]
 }

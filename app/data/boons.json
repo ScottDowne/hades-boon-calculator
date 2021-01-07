@@ -588,7 +588,7 @@
       "name": "Black Out",
       "god": "Dionysus",
       "legendary": true,
-      "image": "High_Tolerance.png",
+      "image": "Black_Out.png",
       "prerequisites": ["Drunken Strike, Drunken Flourish, Drunken Dash, Dionysus' Aid", "Trippy Shot, Trippy Flare"]
     },
     {
@@ -704,7 +704,7 @@
       "legendary": true,
       "god": "Hermes",
       "image": "Greater_Recall.png",
-      "prerequisites": ["Flurry Cast, Quick Reload,, Lambent Plume"]
+      "prerequisites": ["Flurry Cast, Quick Reload, Lambent Plume"]
     },
     {
       "name": "Bad News",
@@ -985,7 +985,7 @@
       "god": "Zeus/Dionysus",
       "duo": true,
       "image": "Scintillating_Feast.png",
-      "prerequisites": ["Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid", "High Tolerance Trippy Shot"]
+      "prerequisites": ["Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid", "High Tolerance, Trippy Shot"]
     },
     {
       "name": "Sea Storm",

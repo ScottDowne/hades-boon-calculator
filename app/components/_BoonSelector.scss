@@ -1,11 +1,14 @@
 .boon-selector-container {
   height: 100%;
   margin: 0 20px;
+  display: flex;
+  flex-direction: column;
 
   .boon-selector-scroller {
     max-height: 100%;
     overflow-y: auto;
-    padding: 0 2px;
+    padding: 2px;
+    margin-top: 20px;
   }
 
   .boon-selector-item {

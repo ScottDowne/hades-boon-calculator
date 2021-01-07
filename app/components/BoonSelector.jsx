@@ -201,7 +201,7 @@ class BoonSelector extends React.Component {
 
     return (
       <div className="boon-selector-container">
-        <div className="boon-selector-scroller">
+        <div className="boon-selector-filter-container">
           {
             godLabels.map((godLabel) => {
               return (
@@ -216,6 +216,10 @@ class BoonSelector extends React.Component {
               );
             })
           }
+          {clearButton}
+          <button onClick={onClose}>close</button>
+        </div>
+        <div className="boon-selector-scroller">
           {
             filteredBoons.map((boon) => {
               return (
@@ -229,8 +233,6 @@ class BoonSelector extends React.Component {
               );
             })
           }
-          {clearButton}
-          <button onClick={onClose}>close</button>
         </div>
       </div>
     )

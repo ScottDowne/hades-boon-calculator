@@ -69,13 +69,12 @@ button {
   .boon-selector-container .boon-selector-scroller {
     max-height: 100%;
     overflow-y: auto;
-    padding: 2px;
     margin-top: 20px; }
   .boon-selector-container .boon-selector-item {
     cursor: pointer;
+    margin: 10px 1px;
     padding: 5px;
-    border: 1px solid #725e2c;
-    margin: 10px 0; }
+    border: 1px solid #725e2c; }
     .boon-selector-container .boon-selector-item.unavailable img,
     .boon-selector-container .boon-selector-item.unavailable .boon-selector-title {
       opacity: 0.6; }
@@ -97,4 +96,6 @@ button {
     .boon-selector-container .boon-selector-item.legendary {
       border-color: goldenrod; }
     .boon-selector-container .boon-selector-item:first-child {
-      margin-top: 0; }
+      margin-top: 1px; }
+    .boon-selector-container .boon-selector-item:last-child {
+      margin-bottom: 1px; }

@@ -61,7 +61,6 @@ class SelectorItem extends React.Component {
                       content = `${prerequisiteBoon}`;
                     }
                     let selected = false;
-                    // Ideally we 
                     if (!found && !prerequisiteUsed.includes(prerequisiteBoon) && selectedBoons.includes(prerequisiteBoon)) {
                       prerequisiteUsed.push(prerequisiteBoon);
                       found = true;
@@ -98,17 +97,24 @@ class SelectorItem extends React.Component {
     const isCurrentlySelectedBoon = currentlySelectedBoon?.name === boon.name;
     const isSelected = selectedBoons.includes(boon.name);
 
+    if (boon.legendary) {
+      className += " legendary";
+    } else if (boon.duo) {
+      className += " duo";
+    }
+
     if (!isBoonAvailable || isCurrentlySelectedBoon || isSelected) {
       if (isCurrentlySelectedBoon) {
         className += " selected";
       } else {
         className += " unavailable";
       }
-      return (
+      // Removing this for the time being, just trying it out.
+      /*return (
         <div className={className}>
           {boonDetails}
         </div>
-      );
+      );*/
     }
     return (
       <div className={className} onClick={this.addBoon}>

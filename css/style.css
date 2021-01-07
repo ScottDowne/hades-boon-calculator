@@ -32,9 +32,9 @@ button {
   box-sizing: border-box; }
 
 .boon-container {
-  width: 70px;
-  flex-basis: 70px;
-  border: 1px solid #725e2c;
+  width: 68px;
+  flex-basis: 68px;
+  border: 2px solid #725e2c;
   cursor: pointer;
   transform: rotate(-45deg);
   margin: 20px;
@@ -50,12 +50,16 @@ button {
     transform: rotate(45deg);
     margin-left: -15px;
     margin-top: -15px;
-    height: 100px;
-    width: 100px; }
+    height: 97px;
+    width: 97px; }
     .boon-container img.empty-image-placeholder {
       opacity: 0.2; }
   .boon-container.opened {
     box-shadow: 0px 0px 1px 1px yellow; }
+  .boon-container.duo {
+    border-color: green; }
+  .boon-container.legendary {
+    border-color: gold; }
 
 .boon-selector-container {
   height: 100%;
@@ -69,11 +73,9 @@ button {
     padding: 5px;
     border: 1px solid #725e2c;
     margin: 10px 0; }
-    .boon-selector-container .boon-selector-item.unavailable {
-      cursor: auto; }
-      .boon-selector-container .boon-selector-item.unavailable img,
-      .boon-selector-container .boon-selector-item.unavailable .boon-selector-title {
-        opacity: 0.6; }
+    .boon-selector-container .boon-selector-item.unavailable img,
+    .boon-selector-container .boon-selector-item.unavailable .boon-selector-title {
+      opacity: 0.6; }
     .boon-selector-container .boon-selector-item .boon-selector-prerequisites .prerequisite-boon-item {
       opacity: 0.6; }
       .boon-selector-container .boon-selector-item .boon-selector-prerequisites .prerequisite-boon-item.selected {
@@ -87,5 +89,9 @@ button {
       width: 75px; }
     .boon-selector-container .boon-selector-item .boon-selector-text {
       margin: 0 5px; }
+    .boon-selector-container .boon-selector-item.duo {
+      border-color: green; }
+    .boon-selector-container .boon-selector-item.legendary {
+      border-color: goldenrod; }
     .boon-selector-container .boon-selector-item:first-child {
       margin-top: 0; }

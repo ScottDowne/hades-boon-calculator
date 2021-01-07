@@ -18,15 +18,21 @@ class Boon extends React.Component {
     }
   }
   render() {
-    const {boons, boonPosition, openPosition, standardBoonType} = this.props;
+    const {boons, boonPosition, openPosition, standardBoonType, selectedBoon} = this.props;
     const selected = boonPosition === openPosition;
-    const selectedBoonName = this.props.selectedBoon?.name;
-    const selectedBoonImage = this.props.selectedBoon?.image;
+    const selectedBoonName = selectedBoon?.name;
+    const selectedBoonImage = selectedBoon?.image;
 
     let imageElement = null;
     let className = "boon-container";
     if (selected) {
       className += " opened";
+    }
+
+    if (selectedBoon?.legendary) {
+      className += " legendary";
+    } else if (selectedBoon?.duo) {
+      className += " duo";
     }
 
     if (selectedBoonImage) {

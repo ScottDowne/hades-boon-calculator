@@ -1,7 +1,7 @@
 .boon-container {
-  width: 70px;
-  flex-basis: 70px;
-  border: 1px solid #725e2c;
+  width: 68px;
+  flex-basis: 68px;
+  border: 2px solid #725e2c;
   cursor: pointer;
   transform: rotate(-45deg);
   margin: 20px;
@@ -21,13 +21,19 @@
     transform: rotate(45deg);
     margin-left: -15px;
     margin-top: -15px;
-    height: 100px;
-    width: 100px;
+    height: 97px;
+    width: 97px;
     &.empty-image-placeholder {
       opacity: 0.2;
     }
   }
   &.opened {
     box-shadow: 0px 0px 1px 1px yellow;
+  }
+  &.duo {
+    border-color: green;
+  }
+  &.legendary {
+    border-color: gold;
   }
 }

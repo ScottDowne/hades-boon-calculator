@@ -127,8 +127,21 @@ class SelectorItem extends React.Component {
 class BoonSelector extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      selectorFilters: {
+        aphrodite: true,
+        ares: true,
+        artemis: true,
+        athena: true,
+        demeter: true,
+        dionysus: true,
+        poseidon: true,
+        zeus: true
+      }
+    };
     this.onClear = this.onClear.bind(this);
     this.addBoon = this.addBoon.bind(this);
+    this.handleFilter = this.handleFilter.bind(this);
   }
   addBoon(boon) {
     const { openPosition, dispatch } = this.props;
@@ -141,6 +154,18 @@ class BoonSelector extends React.Component {
     });
     //this.props.onClose();
   }
+  handleFilter(e) {
+    const target = event.target;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
+    const name = target.name;
+
+    this.setState({
+      selectorFilters: {
+        ...this.state.selectorFilters,
+        [name]: value
+      }
+    });
+  }
   onClear() {
     // This just adds a null boon to this position, which is the initial empty state.
     this.addBoon(null);
@@ -152,6 +177,10 @@ class BoonSelector extends React.Component {
     // The name boons is too generic, this is more like available boons.
     const { App, boons, openPosition, dispatch, onClose, currentlySelectedBoon } = this.props;
     const boonSelectors = Object.keys(App.boons);
+    const filteredBoons = boons.filter(
+      boon => boon.god.toLowerCase().split("/")
+        .every(god => this.state.selectorFilters[god])
+    );
     let clearButton = null;
 
     // Probably want to store a list of selected boons in redux and update it as a boon is added.
@@ -164,6 +193,8 @@ class BoonSelector extends React.Component {
       clearButton = <button onClick={this.onClear}>clear</button>;
     }
 
+    const godLabels = "aphrodite, ares, artemis, athena, demeter, dionysus, poseidon, zeus".split(", ");
+
     /*const availableBoons = boons.filter(boon => {
       return !selectedBoons.includes(boon.name);
     });*/
@@ -172,7 +203,21 @@ class BoonSelector extends React.Component {
       <div className="boon-selector-container">
         <div className="boon-selector-scroller">
           {
-            boons.map((boon) => {
+            godLabels.map((godLabel) => {
+              return (
+                <label key={godLabel}>
+                  <input
+                    name={godLabel}
+                    type="checkbox"
+                    checked={this.state.selectorFilters[godLabel]}
+                    onChange={this.handleFilter} />
+                  {godLabel}
+                </label>
+              );
+            })
+          }
+          {
+            filteredBoons.map((boon) => {
               return (
                 <SelectorItem
                   key={boon.name}

@@ -109,95 +109,111 @@
       "name": "Curse of Agony",
       "god": "Ares",
       "type": "attack",
-      "image": "Curse_of_Agony.png"
+      "image": "Curse_of_Agony.png",
+      "text": "Your <b>Attack</b> inflicts <b>Doom</b>."
     },
     {
       "name": "Curse of Pain",
       "god": "Ares",
       "type": "special",
-      "image": "Curse_of_Pain.png"
+      "image": "Curse_of_Pain.png",
+      "text": "Your <b>Special</b> inflicts <b>Doom</b>."
     },
     {
       "name": "Slicing Shot",
       "god": "Ares",
       "type": "cast",
-      "image": "Slicing_Shot.png"
+      "image": "Slicing_Shot.png",
+      "text": "Your <b>Cast</b> sends a <b>Blade Rift</b> hurling ahead."
     },
     {
       "name": "Slicing Flare",
       "god": "Ares",
       "type": "cast",
-      "image": "Slicing_Shot.png"
+      "image": "Slicing_Shot.png",
+      "text": "Your <b>Cast</b> sends a large <b>Blade Rift</b> hurling ahead for a brief time."
     },
     {
       "name": "Blade Dash",
       "god": "Ares",
       "type": "dash",
-      "image": "Blade_Dash.png"
+      "image": "Blade_Dash.png",
+      "text": "Your <b>Dash</b> creates a <b>Blade Rift</b> where you started."
     },
     {
       "name": "Ares' Aid",
       "god": "Ares",
       "type": "call",
-      "image": "Ares'_Aid.png"
+      "image": "Ares'_Aid.png",
+      "text": "Your <b>Call</b> turns you into an Impervious <b>Blade Rift</b> for 1.2 Sec."
     },
     {
       "name": "Curse of Vengeance",
       "god": "Ares",
-      "image": "Curse_of_Vengeance.png"
+      "image": "Curse_of_Vengeance.png",
+      "text": "After you take damage, inflict <b>Doom</b> on surrounding foes."
     },
     {
       "name": "Urge to Kill",
       "god": "Ares",
-      "image": "Urge_to_Kill.png"
+      "image": "Urge_to_Kill.png",
+      "text": "Your <b>Attack</b> and <b>Cast</b> deal more damage."
     },
     {
       "name": "Battle Rage",
       "god": "Ares",
-      "image": "Battle_Rage.png"
+      "image": "Battle_Rage.png",
+      "text": "After slaying a foe, your next <b>Attack</b> or <b>Special</b> deals more damage."
     },
     {
       "name": "Blood Frenzy",
       "god": "Ares",
-      "image": "Blood_Frenzy.png"
+      "image": "Blood_Frenzy.png",
+      "text": "After using <b>Death Defiance</b>, deal more damage that encounter."
     },
     {
       "name": "Black Metal",
       "god": "Ares",
       "image": "Black_Metal.png",
-      "prerequisites": ["Ares' Aid, Blade Dash, Slicing Flare, Slicing Shot"]
+      "prerequisites": ["Ares' Aid, Blade Dash, Slicing Flare, Slicing Shot"],
+      "text": "Your <b>Blade Rift</b> powers deal damage in a wider area."
     },
     {
       "name": "Engulfing Vortex",
       "god": "Ares",
       "image": "Engulfing_Vortex.png",
-      "prerequisites": ["Ares' Aid, Blade Dash, Slicing Flare, Slicing Shot"]
+      "prerequisites": ["Ares' Aid, Blade Dash, Slicing Flare, Slicing Shot"],
+      "text": "Your <b>Blade Rift</b> effects last longer and pull foes in."
     },
     {
       "name": "Dire Misfortune",
       "god": "Ares",
       "image": "Dire_Misfortune.png",
-      "prerequisites": ["Curse of Agony, Curse of Pain"]
+      "prerequisites": ["Curse of Agony, Curse of Pain"],
+      "text": "Your <b>Doom</b> effects deal more damage when applied multiple times."
     },
     {
       "name": "Impending Doom",
       "god": "Ares",
       "image": "Impending_Doom.png",
-      "prerequisites": ["Curse of Agony, Curse of Pain, Curse of Vengeance"]
+      "prerequisites": ["Curse of Agony, Curse of Pain, Curse of Vengeance"],
+      "text": "Your <b>Doom</b> effects deal more damage, after +0.5 Sec."
     },
     {
       "name": "Vicious Cycle",
       "god": "Ares",
       "legendary": true,
       "image": "Vicious_Cycle.png",
-      "prerequisites": ["Black Metal, Engulfing Vortex"]
+      "prerequisites": ["Black Metal, Engulfing Vortex"],
+      "text": "Your <b>Blade Rift</b> effects deal more damage for each consecutive hit."
     },
     {
       "name": "Curse of Longing",
       "god": "Aphrodite/Ares",
       "duo": true,
       "image": "Curse_of_Longing.png",
-      "prerequisites": ["Curse of Agony, Curse of Pain", "Crush Shot, Heartbreak Flourish, Heartbreak Strike, Passion Dash, Passion Flare"]
+      "prerequisites": ["Curse of Agony, Curse of Pain", "Crush Shot, Heartbreak Flourish, Heartbreak Strike, Passion Dash, Passion Flare"],
+      "text": "Your <b>Doom</b> effects continuously strike <b>Weak</b> foes."
     },
     {
       "name": "Deadly Strike",

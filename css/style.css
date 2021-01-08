@@ -57,7 +57,7 @@ button {
   .boon-container.opened {
     box-shadow: 0px 0px 1px 1px yellow; }
   .boon-container.duo {
-    border-color: green; }
+    border-color: greenyellow; }
   .boon-container.legendary {
     border-color: gold; }
 
@@ -92,7 +92,7 @@ button {
     .boon-selector-container .boon-selector-item .boon-selector-text {
       margin: 0 5px; }
     .boon-selector-container .boon-selector-item.duo {
-      border-color: green; }
+      border-color: limegreen; }
     .boon-selector-container .boon-selector-item.legendary {
       border-color: goldenrod; }
     .boon-selector-container .boon-selector-item:first-child {

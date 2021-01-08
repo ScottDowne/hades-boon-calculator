@@ -4,81 +4,95 @@
       "name": "Heartbreak Strike",
       "god": "Aphrodite",
       "type": "attack",
-      "image": "Heartbreak_Strike.png"
+      "image": "Heartbreak_Strike.png",
+      "text": "Your <b>Attack</b> deals more damage and inflicts <b>Weak</b>."
     },
     {
       "name": "Heartbreak Flourish",
       "god": "Aphrodite",
       "type": "special",
-      "image": "Heartbreak_Flourish.png"
+      "image": "Heartbreak_Flourish.png",
+      "text": "Your <b>Special</b> deals more damage and inflicts <b>Weak</b>."
     },
     {
       "name": "Crush Shot",
       "god": "Aphrodite",
       "type": "cast",
-      "image": "Crush_Shot.png"
+      "image": "Crush_Shot.png",
+      "text": "Your <b>Cast</b> is a wide, short-range blast that inflicts <b>Weak</b>."
     },
     {
       "name": "Passion Flare",
       "god": "Aphrodite",
       "type": "cast",
-      "image": "Crush_Shot.png"
+      "image": "Crush_Shot.png",
+      "text": "Your <b>Cast</b> damages foes around you and inflicts <b>Weak</b>."
     },
     {
       "name": "Passion Dash",
       "god": "Aphrodite",
       "type": "dash",
-      "image": "Passion_Dash.png"
+      "image": "Passion_Dash.png",
+      "text": "Your <b>Dash</b> inflicts damage where you end up, inflicting <b>Weak</b>."
     },
     {
       "name": "Aphrodite's Aid",
       "god": "Aphrodite",
       "type": "call",
-      "image": "Aphrodite's_Aid.png"
+      "image": "Aphrodite's_Aid.png",
+      "text": "Your <b>Call</b> fires a seeking projectile that inflicts <b>Charm</b>."
     },
     {
       "name": "Dying Lament",
       "god": "Aphrodite",
-      "image": "Dying_Lament.png"
+      "image": "Dying_Lament.png",
+      "text": "When foes are slain, they damage nearby foes and inflict <b>Weak</b>."
     },
     {
       "name": "Wave of Despair",
       "god": "Aphrodite",
-      "image": "Wave_of_Despair.png"
+      "image": "Wave_of_Despair.png",
+      "text": "After you take damage, damage nearby foes and inflict <b>Weak</b>."
     },
     {
       "name": "Different League",
       "god": "Aphrodite",
-      "image": "Different_League.png"
+      "image": "Different_League.png",
+      "text": "Resist some damage from nearby foes' attacks."
     },
     {
       "name": "Life Affirmation",
       "god": "Aphrodite",
-      "image": "Life_Affirmation.png"
+      "image": "Life_Affirmation.png",
+      "text": "Any Health or Health chamber rewards are worth more."
     },
     {
       "name": "Empty Inside",
       "god": "Aphrodite",
       "prerequisites": ["Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"],
-      "image": "Empty_Inside.png"
+      "image": "Empty_Inside.png",
+      "text": "Your <b>Weak</b> effects have a longer duration."
     },
     {
       "name": "Sweet Surrender",
       "god": "Aphrodite",
       "prerequisites": ["Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"],
-      "image": "Sweet_Surrender.png"
+      "image": "Sweet_Surrender.png",
+      "text": "<b>Weak</b>-afflicted foes are also more susceptible to damage."
     },
     {
       "name": "Broken Resolve",
       "god": "Aphrodite",
       "prerequisites": ["Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"],
-      "image": "Broken_Resolve.png"
+      "image": "Broken_Resolve.png",
+      "text": "Your <b>Weak</b> effects are more potent."
     },
     {
       "name": "Blown Kiss",
       "god": "Aphrodite",
       "prerequisites": ["Crush Shot"],
-      "image": "Blown_Kiss.png"
+      "image": "Blown_Kiss.png",
+      "text": "Your <b>Cast</b> shoots farther and is stronger against undamaged foes."
     },
     {
       "name": "Unhealthy Fixation",
@@ -88,7 +102,8 @@
         "Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish",
         "Empty Inside, Sweet Surrender, Broken Resolve"
       ],
-      "image": "Unhealthy_Fixation.png"
+      "image": "Unhealthy_Fixation.png",
+      "text": "Your <b>Weak</b> effects also have a 15% chance to Charm foes."
     },
     {
       "name": "Curse of Agony",

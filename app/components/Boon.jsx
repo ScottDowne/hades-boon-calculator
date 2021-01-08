@@ -22,6 +22,8 @@ class Boon extends React.Component {
     const selected = boonPosition === openPosition;
     const selectedBoonName = selectedBoon?.name;
     const selectedBoonImage = selectedBoon?.image;
+    // Text is normally formatted, but for tooltips we don't want that.
+    const selectedBoonText = (selectedBoon?.text || "").replace(/<[^>]*>?/gm, '');;
 
     let imageElement = null;
     let className = "boon-container";
@@ -40,8 +42,10 @@ class Boon extends React.Component {
     } else if (standardBoonType) {
       imageElement = <img className="empty-image-placeholder" src={`./images/Empty_${standardBoonType}_basic.png`}/>;
     }
+    //const title = `${selectedBoonName || boonPosition}\n${selectedBoonText}`;
+    const title = (selectedBoonName || boonPosition) + (selectedBoonText && `\n${selectedBoonText}`);
     return (
-      <div title={selectedBoonName || boonPosition} className={className} onClick={this.onClick}>
+      <div title={title} className={className} onClick={this.onClick}>
         {imageElement}
       </div>
     )

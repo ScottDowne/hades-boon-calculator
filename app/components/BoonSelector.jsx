@@ -89,6 +89,7 @@ class SelectorItem extends React.Component {
         <img src={`./images/${boonImage}`}/>
         <div className="boon-selector-text">
           <div className="boon-selector-title">{boon.name}</div>
+          <div dangerouslySetInnerHTML={{__html: boon.text}} />
           {this.renderPrerequisites()}
         </div>
       </div>

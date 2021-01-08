@@ -1,0 +1,49 @@
+.boon-details {
+  cursor: pointer;
+  margin: 10px 1px;
+  &.unavailable {
+    img,
+    .boon-details-title {
+      opacity: 0.6;
+    }
+    //cursor: auto;
+  }
+  .boon-details-prerequisites {
+    margin: 6px 0;
+    .prerequisite-boon-joiner,
+    .prerequisite-boon-item {
+      opacity: 0.6;
+      &.selected {
+        opacity: 1;
+      }
+    }
+  }
+  &.selected {
+    box-shadow: 0px 0px 1px 1px yellow;
+  }
+  .boon-details-inner {
+    display: flex;
+  }
+  img {
+    height: 75px;
+    width: 75px;
+    margin-top: 4px;
+  }
+  .boon-details-text {
+    margin: 0 5px;
+  }
+  padding: 5px;
+  border: 1px solid #725e2c;
+  &.duo {
+    border-color: limegreen;
+  }
+  &.legendary {
+    border-color: goldenrod;
+  }
+  &:first-child {
+    margin-top: 1px;
+  }
+  &:last-child {
+    margin-bottom: 1px;
+  }
+}

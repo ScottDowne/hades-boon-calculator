@@ -346,108 +346,137 @@
       "name": "Divine Strike",
       "god": "Athena",
       "type": "attack",
-      "image": "Divine_Strike.png"
+      "image": "Divine_Strike.png",
+      "text": "Your <b>Attack</b> is stronger, and can <b>Deflect</b>."
     },
     {
       "name": "Divine Flourish",
       "god": "Athena",
       "type": "special",
-      "image": "Divine_Flourish.png"
+      "image": "Divine_Flourish.png",
+      "text": "Your <b>Special</b> is stronger, and can <b>Deflect</b>."
     },
     {
       "name": "Phalanx Shot",
       "god": "Athena",
       "type": "cast",
-      "image": "Phalanx_Shot.png"
+      "image": "Phalanx_Shot.png",
+      "text": "Your <b>Cast</b> damages foes in a small area, and can <b>Deflect</b>."
     },
     {
       "name": "Phalanx Flare",
       "god": "Athena",
       "type": "cast",
-      "image": "Phalanx_Shot.png"
+      "image": "Phalanx_Shot.png",
+      "text": "Your <b>Cast</b> damages foes around you, and can <b>Deflect</b>."
     },
     {
       "name": "Divine Dash",
       "god": "Athena",
       "type": "dash",
-      "image": "Divine_Dash.png"
+      "image": "Divine_Dash.png",
+      "text": "Your <b>Dash</b> deals damage and can <b>Deflect</b>."
     },
     {
       "name": "Athena's Aid",
       "god": "Athena",
       "type": "call",
-      "image": "Athena's_Aid.png"
+      "image": "Athena's_Aid.png",
+      "text": "Your <b>Call</b> briefly makes you <b>Invulnerable</b> and <b>Deflect</b> all attacks."
     },
     {
       "name": "Holy Shield",
       "god": "Athena",
-      "image": "Holy_Shield.png"
+      "image": "Holy_Shield.png",
+      "text": "After you take damage, damage nearby foes and briefly <b>Deflect</b>."
     },
     {
       "name": "Bronze Skin",
       "god": "Athena",
-      "image": "Bronze_Skin.png"
+      "image": "Bronze_Skin.png",
+      "text": "Resist damage from foes' attacks."
     },
     {
       "name": "Sure Footing",
       "god": "Athena",
-      "image": "Sure_Footing.png"
+      "image": "Sure_Footing.png",
+      "text": "Resist damage from <b>Traps</b>."
     },
     {
       "name": "Proud Bearing",
       "god": "Athena",
       "image": "Proud_Bearing.png",
-      "prerequisites": ["Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"]
+      "prerequisites": [
+        "Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"
+      ],
+      "text": "You begin each <b>Encounter</b> with your <b>God Gauge</b> partly full."
     },
     {
       "name": "Blinding Flash",
       "god": "Athena",
       "image": "Blinding_Flash.png",
-      "prerequisites": ["Divine Strike, Phalanx Shot, Divine Dash, Divine Flourish"]
+      "prerequisites": ["Divine Strike, Phalanx Shot, Divine Dash, Divine Flourish"],
+      "text": "Your abilities that can <b>Deflect</b> also make foes <b>Exposed</b> for 5 Sec."
     },
     {
       "name": "Brilliant Riposte",
       "god": "Athena",
       "image": "Brilliant_Riposte.png",
-      "prerequisites": ["Divine Strike, Divine Dash, Holy Shield, Divine Flourish"]
+      "prerequisites": ["Divine Strike, Divine Dash, Holy Shield, Divine Flourish"],
+      "text": "When you <b>Deflect</b> attacks, they deal more damage."
     },
     {
       "name": "Deathless Stand",
       "god": "Athena",
-      "image": "Deathless_Stand.png"
+      "image": "Deathless_Stand.png",
+      "text": "<b>Death Defiance</b> makes you <b>Impervious</b> longer. Replenish <b>1</b> charge now."
     },
     {
       "name": "Last Stand",
       "god": "Athena",
-      "image": "Last_Stand.png"
+      "image": "Last_Stand.png",
+      "text": "<b>Death Defiance<.b> restores more Health than usual. Replenish <b>1</b> charge now."
     },
     {
       "name": "Divine Protection",
       "god": "Athena",
       "legendary": true,
       "image": "Divine_Protection.png",
-      "prerequisites": ["Brilliant Riposte"]
+      "prerequisites": ["Brilliant Riposte"],
+      "text": "You have a barrier that negates incoming damage."
     },
     {
       "name": "Parting Shot",
       "god": "Athena/Aphrodite",
       "duo": true,
       "image": "Parting_Shot.png",
-      "prerequisites": ["Divine Strike, Phalanx Shot, Divine Flourish, Divine Dash, Athena's Aid", "Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish, Aphrodite's Aid"]
+      "prerequisites": [
+        "Divine Strike, Phalanx Shot, Divine Flourish, Divine Dash, Athena's Aid",
+        "Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish, Aphrodite's Aid"
+      ],
+      "text": "Your <b>Cast</b> gains any bonuses you have for striking foes from behind."
     },
     {
       "name": "Merciful End",
       "god": "Athena/Ares",
       "duo": true,
       "image": "Merciful_End.png",
-      "prerequisites": ["Divine Strike, Divine Flourish", "Curse of Agony, Curse of Pain"]
+      "prerequisites": [
+        "Divine Strike, Divine Flourish",
+        "Curse of Agony, Curse of Pain"
+      ],
+      "text": "Your attacks that can <b>Deflect</b> immediately activate <b>Doom</b> effects."
     },
     {
       "name": "Deadly Reversal",
       "god": "Athena/Artemis",
       "duo": true,
       "image": "Deadly_Reversal.png",
-      "prerequisites": ["Divine Strike, Divine Flourish", "Deadly Strike, Deadly Flourish, True Shot, Artemis' Aid"]
+      "prerequisites": [
+        "Divine Strike, Divine Flourish",
+        "Deadly Strike, Deadly Flourish, True Shot, Artemis' Aid"
+      ],
+      "text": "After you <b>Deflect</b>, briefly gain +20% chance to deal <b>Critical</b> damage."
     },
     {
 

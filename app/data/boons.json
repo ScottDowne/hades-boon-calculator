@@ -1079,139 +1079,189 @@
       "name": "Lightning Strike",
       "god": "Zeus",
       "type": "attack",
-      "image": "Lightning_Strike.png"
+      "image": "Lightning_Strike.png",
+      "text": "Your <b>Attack</b> emits chain-lightning when you damage a foe."
     },
     {
       "name": "Thunder Flourish",
       "god": "Zeus",
       "type": "special",
-      "image": "Thunder_Flourish.png"
+      "image": "Thunder_Flourish.png",
+      "text": "Your <b>Special</b> causes a lightning bolt to strike nearby foes."
     },
     {
       "name": "Electric Shot",
       "god": "Zeus",
       "type": "cast",
-      "image": "Electric_Shot.png"
+      "image": "Electric_Shot.png",
+      "text": "Your <b>Cast</b> is a burst of chain-lightning that bounces between foes."
     },
     {
       "name": "Thunder Flare",
       "god": "Zeus",
       "type": "cast",
-      "image": "Electric_Shot.png"
+      "image": "Electric_Shot.png",
+      "text": "Your <b>Cast</b> causes a lightning bolt to strike nearby foes."
     },
     {
       "name": "Thunder Dash",
       "god": "Zeus",
       "type": "dash",
-      "image": "Thunder_Dash.png"
+      "image": "Thunder_Dash.png",
+      "text": "Your <b>Dash</b> causes a lightning bolt to strike nearby foes."
     },
     {
       "name": "Zeus' Aid",
       "god": "Zeus",
       "type": "call",
-      "image": "Zeus'_Aid.png"
+      "image": "Zeus'_Aid.png",
+      "text": "Your <b>Call</b> makes lightning strike nearby foes repeatedly for <b>1.5 Sec</b>."
     },
     {
       "name": "Heaven's Vengeance",
       "god": "Zeus",
-      "image": "Heaven's_Vengeance.png"
+      "image": "Heaven's_Vengeance.png",
+      "text": "After you take damage, your foe is struck by lightning."
     },
     {
       "name": "Lightning Reflexes",
       "god": "Zeus",
-      "image": "Lightning_Reflexes.png"
+      "image": "Lightning_Reflexes.png",
+      "text": "After you <b>Dash</b> just before getting hit, a bolt strikes a nearby foes."
     },
     {
       "name": "Storm Lightning",
       "god": "Zeus",
       "image": "Storm_Lightning.png",
-      "prerequisites": ["Electric Shot, Lightning Strike"]
+      "prerequisites": ["Electric Shot, Lightning Strike"],
+      "text": "Your chain-lightning effects bounce more times before expiring."
     },
     {
       "name": "High Voltage",
       "god": "Zeus",
       "image": "High_Voltage.png",
-      "prerequisites": ["Thunder Dash, Thunder Flourish, Zeus' Aid"]
+      "prerequisites": ["Thunder Dash, Thunder Flourish, Zeus' Aid"],
+      "text": "Your lightning bolt effects deal damage in a larger area."
     },
     {
       "name": "Double Strike",
       "god": "Zeus",
       "image": "Double_Strike.png",
-      "prerequisites": ["Thunder Dash, Thunder Flourish, Zeus' Aid"]
+      "prerequisites": ["Thunder Dash, Thunder Flourish, Zeus' Aid"],
+      "text": "Your lightning bolt effects have a chance to strike twice."
     },
     {
       "name": "Static Discharge",
       "god": "Zeus",
       "image": "Static_Discharge.png",
-      "prerequisites": ["Thunder Flourish, Zeus' Aid, Thunder Dash, Heaven's Vengeance, Lightning Strike, Electric Shot, Lightning Reflexes"]
+      "prerequisites": [
+        "Thunder Flourish, Zeus' Aid, Thunder Dash, Heaven's Vengeance, Lightning Strike, Electric Shot, Lightning Reflexes"
+      ],
+      "text": "Your lightning effects also make foes <b>Jolted</b>."
     },
     {
       "name": "Clouded Judgment",
       "god": "Zeus",
       "image": "Clouded_Judgment.png",
-      "prerequisites": ["Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"]
+      "prerequisites": [
+        "Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"
+      ],
+      "text": "Your <b>God Gauge</b> charges faster when you deal or take damage."
     },
     {
       "name": "Billowing Strength",
       "god": "Zeus",
       "image": "Billowing_Strength.png",
-      "prerequisites": ["Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"]
+      "prerequisites": [
+        "Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"
+      ],
+      "text": "After using <b>Call</b>, you deal more damage for <b>15 Sec</b>."
     },
     {
       "name": "Splitting Bolt",
       "god": "Zeus",
       "legendary": true,
       "image": "Splitting_Bolt.png",
-      "prerequisites": ["Double Strike, High Voltage, Storm Lightning"]
+      "prerequisites": ["Double Strike, High Voltage, Storm Lightning"],
+      "text": "All your lightning effects create an additional burst."
     },
     {
       "name": "Smoldering Air",
       "god": "Zeus/Aphrodite",
       "duo": true,
       "image": "Smoldering_Air.png",
-      "prerequisites": ["Lightning Strike, Thunder Dash, Thunder Flourish, Electric Shot, Zeus' Aid", "Heartbreak Strike, Heartbreak Flourish, Crush Shot, Passion Dash, Aphrodite's Aid"]
+      "prerequisites": [
+        "Lightning Strike, Thunder Dash, Thunder Flourish, Electric Shot, Zeus' Aid",
+        "Heartbreak Strike, Heartbreak Flourish, Crush Shot, Passion Dash, Aphrodite's Aid"
+      ],
+      "text": "Your <b>Call</b> charges up automatically, but is capped at 25%."
     },
     {
       "name": "Vengeful Mood",
       "god": "Zeus/Ares",
       "duo": true,
       "image": "Vengeful_Mood.png",
-      "prerequisites": ["Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid", "Ares' Aid, Blade Dash, Curse of Agony, Curse of Pain, Slicing Shot", "Curse of Vengeance, Frozen Touch, Heaven's Vengeance, Holy Shield, Wave of Despair"]
+      "prerequisites": [
+        "Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid",
+        "Ares' Aid, Blade Dash, Curse of Agony, Curse of Pain, Slicing Shot",
+        "Curse of Vengeance, Frozen Touch, Heaven's Vengeance, Holy Shield, Wave of Despair"
+      ],
+      "text": "Your <b>Revenge</b> attacks sometimes occur without taking damage."
     },
     {
       "name": "Lightning Rod",
       "god": "Zeus/Artemis",
       "duo": true,
       "image": "Lightning_Rod.png",
-      "prerequisites": ["Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid","Artemis' Aid, Deadly Flourish, Deadly Strike, Hunter Dash, True Shot"]
+      "prerequisites": [
+        "Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid",
+        "Artemis' Aid, Deadly Flourish, Deadly Strike, Hunter Dash, True Shot"
+      ],
+      "text": "Your collectible Cast Ammo strike nearby foes with lightning every <b>1 Sec</b>."
     },
     {
       "name": "Lightning Phalanx",
       "god": "Zeus/Athena",
       "duo": true,
       "image": "Lightning_Phalanx.png",
-      "prerequisites": ["Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid", "Phalanx Shot"]
+      "prerequisites": [
+        "Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid",
+        "Phalanx Shot"
+      ],
+      "text": "Your Phalanx Shot <b>Cast</b> bounces between nearby foes."
     },
     {
       "name": "Cold Fusion",
       "god": "Zeus/Demeter",
       "duo": true,
       "image": "Cold_Fusion.png",
-      "prerequisites": ["Static Discharge", "Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash"]
+      "prerequisites": [
+        "Static Discharge",
+        "Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash"
+      ],
+      "text": "<b>Jolted</b> status does not expire on your enemies' attacks."
     },
     {
       "name": "Scintillating Feast",
       "god": "Zeus/Dionysus",
       "duo": true,
       "image": "Scintillating_Feast.png",
-      "prerequisites": ["Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid", "High Tolerance, Trippy Shot"]
+      "prerequisites": [
+        "Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid",
+        "High Tolerance, Trippy Shot"
+      ],
+      "text": "Your <b>Festive Fog</b> effects also deal lightning damage periodically."
     },
     {
       "name": "Sea Storm",
       "god": "Zeus/Poseidon",
       "duo": true,
       "image": "Sea_Storm.png",
-      "prerequisites": ["Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid", "Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike"]
+      "prerequisites": [
+        "Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid",
+        "Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike"
+      ],
+      "text": "Your knock-away effects also cause foes to be struck by lightning."
     }
   ]
 }

@@ -786,89 +786,109 @@
     {
       "name": "Swift Strike",
       "god": "Hermes",
-      "image": "Swift_Strike.png"
+      "image": "Swift_Strike.png",
+      "text": "Your <b>Attack</b> is +X% faster."
     },
     {
       "name": "Swift Flourish",
       "god": "Hermes",
-      "image": "Swift_Flourish.png"
+      "image": "Swift_Flourish.png",
+      "text": "Your <b>Special</b> is +X% faster."
     },
     {
       "name": "Flurry Cast",
       "god": "Hermes",
-      "image": "Flurry_Cast.png"
+      "image": "Flurry_Cast.png",
+      "text": "Your <b>Cast</b> is +X% faster and fully automatic."
     },
     {
       "name": "Quick Favor",
       "god": "Hermes",
       "image": "Quick_Favor.png",
-      "prerequisites": ["Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"]
+      "prerequisites": [
+        "Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"
+      ],
+      "text": "Your <b>Call</b> charges up automatically."
     },
     {
       "name": "Hyper Sprint",
       "god": "Hermes",
-      "image": "Hyper_Sprint.png"
+      "image": "Hyper_Sprint.png",
+      "text": "For X seconds after you <b>Dash</b>, become <b>Sturdy</b> and run +100% faster."
     },
     {
       "name": "Greater Haste",
       "god": "Hermes",
-      "image": "Greater_Haste.png"
+      "image": "Greater_Haste.png",
+      "text": "You move X% faster."
     },
     {
       "name": "Quick Recovery",
       "god": "Hermes",
-      "image": "Quick_Recovery.png"
+      "image": "Quick_Recovery.png",
+      "text": "After you take damage, quickly <b>Dash</b> to recover up to X% Health lost."
     },
     {
       "name": "Greater Evasion",
       "god": "Hermes",
-      "image": "Greater_Evasion.png"
+      "image": "Greater_Evasion.png",
+      "text": "You have +X% chance to <b>Dodge</b>."
     },
     {
       "name": "Greatest Reflex",
       "god": "Hermes",
-      "image": "Greatest_Reflex.png"
+      "image": "Greatest_Reflex.png",
+      "text": "You can <b>Dash</b> +X more time(s) in a row."
     },
     {
       "name": "Second Wind",
       "god": "Hermes",
       "image": "Second_Wind.png",
-      "prerequisites": ["Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"]
+      "prerequisites": [
+        "Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"
+      ],
+      "text": "After using <b>Call</b>, gain <b>Dodge</b> chance and move speed for <b>6 Sec</b>."
     },
     {
       "name": "Quick Reload",
       "god": "Hermes",
-      "image": "Quick_Reload.png"
+      "image": "Quick_Reload.png",
+      "text": "Foes drop Cast Ammo stuck in them faster."
     },
     {
       "name": "Side Hustle",
       "god": "Hermes",
-      "image": "Side_Hustle.png"
+      "image": "Side_Hustle.png",
+      "text": "Each time you enter a <b>Chamber</b>, gain a bit wealth."
     },
     {
       "name": "Rush Delivery",
       "god": "Hermes",
       "image": "Rush_Delivery.png",
-      "prerequisites": ["Greater Haste, Hyper Sprint, Lambent Plume"]
+      "prerequisites": ["Greater Haste, Hyper Sprint, Lambent Plume"],
+      "text": "You deal bonus damage based on any bonus move speed."
     },
     {
       "name": "Auto Reload",
       "god": "Hermes",
-      "image": "Auto_Reload.png"
+      "image": "Auto_Reload.png",
+      "text": "You regenerate Cast Ammo faster."
     },
     {
       "name": "Greater Recall",
       "legendary": true,
       "god": "Hermes",
       "image": "Greater_Recall.png",
-      "prerequisites": ["Flurry Cast, Quick Reload, Lambent Plume"]
+      "prerequisites": ["Flurry Cast, Quick Reload, Lambent Plume"],
+      "text": "Your Cast Ammo automatically return to you."
     },
     {
       "name": "Bad News",
       "legendary": true,
       "god": "Hermes",
       "image": "Bad_News.png",
-      "prerequisites": ["Auto Reload, Lambent Plume"]
+      "prerequisites": ["Auto Reload, Lambent Plume"],
+      "text": "Your cast deals more damage to foes without Cast Ammo on them."
     },
     {
       "name": "Tempest Strike",

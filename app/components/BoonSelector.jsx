@@ -16,6 +16,7 @@ class BoonSelector extends React.Component {
         athena: true,
         demeter: true,
         dionysus: true,
+        hermes: true,
         poseidon: true,
         zeus: true
       }
@@ -74,7 +75,7 @@ class BoonSelector extends React.Component {
       clearButton = <button onClick={this.onClear}>clear</button>;
     }
 
-    const godLabels = "aphrodite, ares, artemis, athena, demeter, dionysus, poseidon, zeus".split(", ");
+    const godLabels = "aphrodite, ares, artemis, athena, demeter, dionysus, hermes, poseidon, zeus".split(", ");
 
     /*const availableBoons = boons.filter(boon => {
       return !selectedBoons.includes(boon.name);

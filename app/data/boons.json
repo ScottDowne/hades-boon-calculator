@@ -894,144 +894,186 @@
       "name": "Tempest Strike",
       "god": "Poseidon",
       "type": "attack",
-      "image": "Tempest_Strike.png"
+      "image": "Tempest_Strike.png",
+      "text": "Your <b>Attack</b> deals more damage and knocks foes away."
     },
     {
       "name": "Tempest Flourish",
       "god": "Poseidon",
       "type": "special",
-      "image": "Tempest_Flourish.png"
+      "image": "Tempest_Flourish.png",
+      "text": "Your <b>Special</b> deals more damage and knocks foes away."
     },
     {
       "name": "Flood Shot",
       "god": "Poseidon",
       "type": "cast",
-      "image": "Flood_Shot.png"
+      "image": "Flood_Shot.png",
+      "text": "Your <b>Cast</b> damages foes in an area and knocks them away."
     },
     {
       "name": "Flood Flare",
       "god": "Poseidon",
       "type": "cast",
-      "image": "Flood_Shot.png"
+      "image": "Flood_Shot.png",
+      "text": "Your <b>Cast</b> damages foes around you and knocks them away."
     },
     {
       "name": "Tidal Dash",
       "god": "Poseidon",
       "type": "dash",
-      "image": "Tidal_Dash.png"
+      "image": "Tidal_Dash.png",
+      "text": "Your <b>Dash</b> damages foes in an area and knocks them away."
     },
     {
       "name": "Poseidon's Aid",
       "god": "Poseidon",
       "type": "call",
-      "image": "Poseidon's_Aid.png"
+      "image": "Poseidon's_Aid.png",
+      "text": "Your <b>Call</b> makes you surge into foes while <b>Impervious</b> for <b>1.2 Sec</b>."
     },
     {
       "name": "Typhoon's Fury",
       "god": "Poseidon",
       "image": "Typhoon's_Fury.png",
-      "prerequisites": ["Tempest Strike, Tidal Dash, Flood Shot, Tempest Flourish, Poseidon's Aid"]
+      "prerequisites": ["Tempest Strike, Tidal Dash, Flood Shot, Tempest Flourish, Poseidon's Aid"],
+      "text": "You deal more damage when slamming foes into barriers."
     },
     {
       "name": "Hydraulic Might",
       "god": "Poseidon",
-      "image": "Hydraulic_Might.png"
+      "image": "Hydraulic_Might.png",
+      "text": "Your <b>Attack</b> and <b>Special</b> are stronger the first <b>10 Sec.</b> in <b>Encounter(s)</b>."
     },
     {
       "name": "Ocean's Bounty",
       "god": "Poseidon",
-      "image": "Ocean's_Bounty.png"
+      "image": "Ocean's_Bounty.png",
+      "text": "Any Gemstone, Darkness or Obols chamber rewards are worth more."
     },
     {
       "name": "Sunken Treasure",
       "god": "Poseidon",
-      "image": "Sunken_Treasure.png"
+      "image": "Sunken_Treasure.png",
+      "text": "Gain an assortment of Gemstone, Darkness, Obols and Health."
     },
     {
       "name": "Razor Shoals",
       "god": "Poseidon",
       "image": "Razor_Shoals.png",
-      "prerequisites": ["Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash"]
+      "prerequisites": ["Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash"],
+      "text": "Using knock-away effects also Rupture foes."
     },
     {
       "name": "Boiling Point",
       "god": "Poseidon",
       "image": "Boiling_Point.png",
-      "prerequisites": ["Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"]
+      "prerequisites": [
+        "Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"
+      ],
+      "text": "Your <b>God Gauge</b> charges faster when you take damage."
     },
     {
       "name": "Breaking Wave",
       "god": "Poseidon",
       "image": "Breaking_Wave.png",
-      "prerequisites": ["Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash"]
+      "prerequisites": ["Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash"],
+      "text": "Slamming foes into walls or corners creates a watery blast in the area."
     },
     {
       "name": "Wave Pounding",
       "god": "Poseidon",
       "image": "Wave_Pounding.png",
-      "prerequisites": ["Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash"]
+      "prerequisites": ["Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash"],
+      "text": "Your boons with <b>Knock-Away</b> effects deal bonus damage to bosses."
     },
     {
       "name": "Rip Current",
       "god": "Poseidon",
       "image": "Rip_Current.png",
-      "prerequisites": ["Poseidon's Aid"]
+      "prerequisites": ["Poseidon's Aid"],
+      "text": "Your <b>Call</b> pulls in foes and the effect lasts longer."
     },
     {
       "name": "Huge Catch",
       "god": "Poseidon",
       "legendary": true,
       "image": "Huge_Catch.png",
-      "prerequisites": ["Ocean's Bounty, Sunken Treasure", "Ocean's Bounty, Sunken Treasure"]
+      "prerequisites": ["Ocean's Bounty, Sunken Treasure", "Ocean's Bounty, Sunken Treasure"],
+      "text": "You have a greater chance to find <b>Fishing Point</b> in each <b>Chamber</b>."
     },
     {
       "name": "Second Wave",
       "god": "Poseidon",
       "legendary": true,
       "image": "Second_Wave.png",
-      "prerequisites": ["Breaking Wave, Typhoon's Fury", "Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash"]
+      "prerequisites": [
+        "Breaking Wave, Typhoon's Fury", "Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash"
+      ],
+      "text": "Your knock-away effects shove foes a second time after the first."
     },
     {
       "name": "Sweet Nectar",
       "god": "Poseidon/Aphrodite",
       "duo": true,
       "image": "Sweet_Nectar.png",
-      "prerequisites": ["Tempest Strike, Tempest Flourish, Flood Shot, Tidal Dash, Poseidon's Aid", "Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish, Aphrodite's Aid"]
+      "prerequisites": [
+        "Tempest Strike, Tempest Flourish, Flood Shot, Tidal Dash, Poseidon's Aid",
+        "Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish, Aphrodite's Aid"
+      ],
+      "text": "Any Poms of Power you find are more effective."
     },
     {
       "name": "Curse of Drowning",
       "god": "Poseidon/Ares",
       "duo": true,
       "image": "Curse_of_Drowning.png",
-      "prerequisites": ["Flood Shot", "Ares' Aid, Blade Dash, Curse of Agony, Curse of Pain"]
+      "prerequisites": ["Flood Shot", "Ares' Aid, Blade Dash, Curse of Agony, Curse of Pain"],
+      "text": "Your <b>Cast</b> is a pulse that deals damage to foes around you."
     },
     {
       "name": "Mirage Shot",
       "god": "Poseidon/Artemis",
       "duo": true,
       "image": "Mirage_Shot.png",
-      "prerequisites": ["Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash", "Artemis' Aid, Deadly Flourish, Deadly Strike, True Shot"]
+      "prerequisites": [
+        "Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash",
+        "Artemis' Aid, Deadly Flourish, Deadly Strike, True Shot"
+      ],
+      "text": "Your <b>Cast</b> fires a second projectile, though it has reduced damage."
     },
     {
       "name": "Unshakable Mettle",
       "god": "Poseidon/Athena",
       "duo": true,
       "image": "Unshakable_Mettle.png",
-      "prerequisites": ["Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash", "Athena's Aid, Divine Dash, Divine Flourish, Divine Strike, Phalanx Shot"]
+      "prerequisites": [
+        "Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash",
+        "Athena's Aid, Divine Dash, Divine Flourish, Divine Strike, Phalanx Shot"
+      ],
+      "text": "You cannot be stunned, and resist some damage from <b>Bosses</b>."
     },
     {
       "name": "Blizzard Shot",
       "god": "Poseidon/Demeter",
       "duo": true,
       "image": "Blizzard_Shot.png",
-      "prerequisites": ["Flood Shot", "Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash"]
+      "prerequisites": [
+        "Flood Shot",
+        "Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash"
+      ],
+      "text": "Your <b>Cast</b> moves slowly, piercing foes and firing shards around it."
     },
     {
       "name": "Exclusive Access",
       "god": "Poseidon/Dionysus",
       "duo": true,
       "image": "Exclusive_Access.png",
-      "prerequisites": ["Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash", "Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike, Trippy Shot"]
+      "prerequisites": [
+        "Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash",
+        "Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike, Trippy Shot"
+      ],
+      "text": "Any <b>Boons</b> you find have superior effects."
     },
     {
       "name": "Lightning Strike",

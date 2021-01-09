@@ -109,7 +109,7 @@ class BoonDetails extends React.Component {
         <img src={`./images/${boonImage}`}/>
         <div className="boon-details-text">
           <div className="boon-details-basic">
-            <div className="boon-details-title">{boon.name}</div>
+            <div className="boon-details-title"><span>{boon.name}</span><span>{boon.god}</span></div>
             <div dangerouslySetInnerHTML={{__html: boon.text}} />
           </div>
           {this.renderPrerequisites()}

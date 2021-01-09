@@ -1,6 +1,10 @@
 .boon-details {
   cursor: pointer;
   margin: 10px 1px;
+  .boon-details-title {
+    display: flex;
+    justify-content: space-between;
+  }
   &.unavailable {
     img,
     .boon-details-title {

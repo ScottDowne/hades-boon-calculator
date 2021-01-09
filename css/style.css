@@ -67,6 +67,9 @@ button {
   margin: 10px 1px;
   padding: 5px;
   border: 1px solid #725e2c; }
+  .boon-details .boon-details-title {
+    display: flex;
+    justify-content: space-between; }
   .boon-details.unavailable img,
   .boon-details.unavailable .boon-details-title {
     opacity: 0.6; }

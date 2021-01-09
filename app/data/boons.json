@@ -624,129 +624,164 @@
         "Frost Strike, Mistral Dash, Frost Flourish, Crystal Beam, Demeter's Aid",
         "Divine Strike, Divine Flourish, Phalanx Shot, Divine Dash, Athena's Aid"
       ],
-      "text": "While you have no <b>Death/Stubborn Defiance</b> your Health slowly "
+      "text": "While you have no <b>Death/Stubborn Defiance</b> your Health slowly."
     },
     {
       "name": "Drunken Strike",
       "god": "Dionysus",
       "type": "attack",
-      "image": "Drunken_Strike.png"
+      "image": "Drunken_Strike.png",
+      "text": "Your <b>Attack</b> inflicts <b>Hangover</b>."
     },
     {
       "name": "Drunken Flourish",
       "god": "Dionysus",
       "type": "special",
-      "image": "Drunken_Flourish.png"
+      "image": "Drunken_Flourish.png",
+      "text": "Your <b>Special</b> inflicts <b>Hangover</b>."
     },
     {
       "name": "Trippy Shot",
       "god": "Dionysus",
       "type": "cast",
-      "image": "Trippy_Shot.png"
+      "image": "Trippy_Shot.png",
+      "text": "Your <b>Cast</b> lobs a projectile that bursts into <b>Festive Fog</b>."
     },
     {
       "name": "Trippy Flare",
       "god": "Dionysus",
       "type": "cast",
-      "image": "Trippy_Shot.png"
+      "image": "Trippy_Shot.png",
+      "text": "Your <b>Cast</b> damages foes around you, leaving behind <b>Festive Fog</b>."
     },
     {
       "name": "Drunken Dash",
       "god": "Dionysus",
       "type": "dash",
-      "image": "Drunken_Dash.png"
+      "image": "Drunken_Dash.png",
+      "text": "Your <b>Dash</b> inflicts foes near you with <b>Hangover</b>."
     },
     {
       "name": "Dionysus' Aid",
       "god": "Dionysus",
       "type": "call",
-      "image": "Dionysus'_Aid.png"
+      "image": "Dionysus'_Aid.png",
+      "text": "Your <b>Call</b> inflicts <b>Hangover</b> to foes all around you for <b>1.5 Sec</b>."
     },
     {
       "name": "After Party",
       "god": "Dionysus",
-      "image": "After_Party.png"
+      "image": "After_Party.png",
+      "text": "If your Health is low after Encounters, restore to the threshold."
     },
     {
       "name": "Positive Outlook",
       "god": "Dionysus",
-      "image": "Positive_Outlook.png"
+      "image": "Positive_Outlook.png",
+      "text": "Take less damage while at 40% Health or below."
     },
     {
       "name": "Premium Vintage",
       "god": "Dionysus",
-      "image": "Premium_Vintage.png"
+      "image": "Premium_Vintage.png",
+      "text": "Gain Health when you pick up <b>Nectar</b>. Receive <b>1 Nectar</b> now."
     },
     {
       "name": "Strong Drink",
       "god": "Dionysus",
-      "image": "Strong_Drink.png"
+      "image": "Strong_Drink.png",
+      "text": "Using a <b>Fountain</b> restores all Health and gives you bonus damage."
     },
     {
       "name": "Bad Influence",
       "god": "Dionysus",
       "image": "Bad_Influence.png",
-      "prerequisites": ["Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike"]
+      "prerequisites": ["Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike"],
+      "text": "Deal more damage while 3 foes are <b>Hangover</b>-afflicted."
     },
     {
       "name": "Numbing Sensation",
       "god": "Dionysus",
       "image": "Numbing_Sensation.png",
-      "prerequisites": ["Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike"]
+      "prerequisites": ["Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike"],
+      "text": "Your <b>Hangover</b> effects also make foes move slower."
     },
     {
       "name": "Peer Pressure",
       "god": "Dionysus",
       "image": "Numbing_Sensation.png",
-      "prerequisites": ["Drunken Dash, Drunken Flourish, Drunken Strike"]
+      "prerequisites": ["Drunken Dash, Drunken Flourish, Drunken Strike"],
+      "text": "<b>Hangover</b>-afflicted foes contaminate other nearby foes every <b>4 Sec</b>."
     },
     {
       "name": "High Tolerance",
       "god": "Dionysus",
       "image": "High_Tolerance.png",
-      "prerequisites": ["Trippy Shot, Trippy Flare"]
+      "prerequisites": ["Trippy Shot, Trippy Flare"],
+      "text": "Take less damage while standing in <b>Festive Fog</b>."
     },
     {
       "name": "Black Out",
       "god": "Dionysus",
       "legendary": true,
       "image": "Black_Out.png",
-      "prerequisites": ["Drunken Strike, Drunken Flourish, Drunken Dash, Dionysus' Aid", "Trippy Shot, Trippy Flare"]
+      "prerequisites": [
+        "Drunken Strike, Drunken Flourish, Drunken Dash, Dionysus' Aid",
+        "Trippy Shot, Trippy Flare"
+      ],
+      "text": "<b>Hangover</b>-afflicted foes take bonus damage in <b>Festive Fog</b>."
     },
     {
       "name": "Low Tolerance",
       "god": "Dionysus/Aphrodite",
       "duo": true,
       "image": "Low_Tolerance.png",
-      "prerequisites": ["Drunken Strike, Drunken Flourish, Drunken Dash, Dionysus' Aid", "Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"]
+      "prerequisites": [
+        "Drunken Strike, Drunken Flourish, Drunken Dash, Dionysus' Aid",
+        "Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"
+      ],
+      "text": "Your <b>Hangover</b> effects stack even more times against <b>Weak</b> foes."
     },
     {
       "name": "Curse of Nausea",
       "god": "Dionysus/Ares",
       "duo": true,
       "image": "Curse_of_Nausea.png",
-      "prerequisites": ["Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike", "Curse of Agony, Curse of Pain, Curse of Vengeance"]
+      "prerequisites": [
+        "Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike",
+        "Curse of Agony, Curse of Pain, Curse of Vengeance"
+      ],
+      "text": "Your <b>Hangover,/b> effects deal damage faster."
     },
     {
       "name": "Splitting Headache",
       "god": "Dionysus/Artemis",
       "duo": true,
       "image": "Splitting_Headache.png",
-      "prerequisites": ["Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike", "Artemis' Aid, Deadly Flourish, Deadly Strike, True Shot"]
+      "prerequisites": [
+        "Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike",
+        "Artemis' Aid, Deadly Flourish, Deadly Strike, True Shot"
+      ],
+      "text": "<b>Hangover</b>-afflicted foes are more likely to take <b>Critical</b> damage."
     },
     {
       "name": "Calculated Risk",
       "god": "Dionysus/Athena",
       "duo": true,
       "image": "Calculated_Risk.png",
-      "prerequisites": ["Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike", "Athena's Aid, Divine Dash, Divine Flourish, Divine Strike"]
+      "prerequisites": [
+        "Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike",
+        "Athena's Aid, Divine Dash, Divine Flourish, Divine Strike"
+      ],
+      "text": "Your foes' ranged-attack projectiles are slower."
     },
     {
       "name": "Ice Wine",
       "god": "Dionysus/Demeter",
       "duo": true,
       "image": "Ice_Wine.png",
-      "prerequisites": ["Trippy Shot", "Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash"]
+      "prerequisites": ["Trippy Shot", "Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash"],
+      "text": "Your <b>Cast</b> blasts an area with freezing <b>Festive Fog</b> that inflicts <b>Chill</b>."
     },
     {
       "name": "Swift Strike",

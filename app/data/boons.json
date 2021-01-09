@@ -483,115 +483,148 @@
       "name": "Frost Strike",
       "god": "Demeter",
       "type": "attack",
-      "image": "Frost_Strike.png"
+      "image": "Frost_Strike.png",
+      "text": "Your <b>Attack</b> is stronger and inflicts <b>Chill</b>."
     },
     {
       "name": "Frost Flourish",
       "god": "Demeter",
       "type": "special",
-      "image": "Frost_Flourish.png"
+      "image": "Frost_Flourish.png",
+      "text": "Your <b>Special</b> is stronger and inflicts <b>Chill</b>."
     },
     {
       "name": "Crystal Beam",
       "god": "Demeter",
       "type": "cast",
-      "image": "Crystal_Beam.png"
+      "image": "Crystal_Beam.png",
+      "text": "Your <b>Cast</b> drops a crystal that fires a beam straight ahead for <b>5 sec</b>."
     },
     {
       "name": "Icy Flare",
       "god": "Demeter",
       "type": "cast",
-      "image": "Crystal_Beam.png"
+      "image": "Crystal_Beam.png",
+      "text": "Your <b>Cast</b> damages foes around you and inflicts <b>Chill</b>."
     },
     {
       "name": "Mistral Dash",
       "god": "Demeter",
       "type": "dash",
-      "image": "Mistral_Dash.png"
+      "image": "Mistral_Dash.png",
+      "text": "Your <b>Dash</b> shoots a gust ahead that inflicts <b>Chill</b>."
     },
     {
       "name": "Demeter's Aid",
       "god": "Demeter",
       "type": "call",
-      "image": "Demeter's_Aid.png"
+      "image": "Demeter's_Aid.png",
+      "text": "Your <b>Call</b> creates a winter vortex for 5 Sec., deals damage every 0.25 Sec inflicting <b>Chill</b>."
     },
     {
       "name": "Frozen Touch",
       "god": "Demeter",
-      "image": "Frozen_Touch.png"
+      "image": "Frozen_Touch.png",
+      "text": "After you take damage, damage and completely <b>Chill</b> your foe."
     },
     {
       "name": "Rare Crop",
       "god": "Demeter",
-      "image": "Rare_Crop.png"
+      "image": "Rare_Crop.png",
+      "text": "Your <b>Boons</b> become Common, then gain Rarity every <b>3 Encounter(s)</b>."
     },
     {
       "name": "Ravenous Will",
       "god": "Demeter",
-      "image": "Ravenous_Will.png"
+      "image": "Ravenous_Will.png",
+      "text": "While you have no Cast Ammo, take 10% less damage and deal more."
     },
     {
       "name": "Nourished Soul",
       "god": "Demeter",
-      "image": "Nourished_Soul.png"
+      "image": "Nourished_Soul.png",
+      "text": "Any <b>Health</b> effects are more potent. Restore +30% now."
     },
     {
       "name": "Snow Burst",
       "god": "Demeter",
-      "image": "Snow_Burst.png"
+      "image": "Snow_Burst.png",
+      "text": "Whenever you <b>Cast</b>, damage nearby foes and inflict <b>Chill</b>."
     },
     {
       "name": "Arctic Blast",
       "god": "Demeter",
       "image": "Arctic_Blast.png",
-      "prerequisites": ["Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash, Snow Burst"]
+      "prerequisites": ["Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash, Snow Burst"],
+      "text": "Applying 10 stacks of <b>Chill</b> causes a blast, clearing the effect."
     },
     {
       "name": "Killing Freeze",
       "god": "Demeter",
       "image": "Killing_Freeze.png",
-      "prerequisites": ["Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash, Snow Burst"]
+      "prerequisites": ["Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash, Snow Burst"],
+      "text": "Applying <b>Chill</b> to all enemies causes them to <b>Slow</b> and <b>Decay</b>."
     },
     {
       "name": "Glacial Glare",
       "god": "Demeter",
       "image": "Glacial_Glare.png",
-      "prerequisites": ["Crystal Beam"]
+      "prerequisites": ["Crystal Beam"],
+      "text": "Your <b>Cast</b> fires longer and inflicts <b>Chill</b>."
     },
     {
       "name": "Winter Harvest",
       "god": "Demeter",
       "legendary": true,
       "image": "Winter_Harvest.png",
-      "prerequisites": ["Arctic Blast, Ravenous Will, Killing Freeze", "Arctic Blast, Ravenous Will, Killing Freeze"]
+      "prerequisites": [
+        "Arctic Blast, Ravenous Will, Killing Freeze", "Arctic Blast, Ravenous Will, Killing Freeze"
+      ],
+      "text": "Chill-affected foes shatter at 10% hp, inflicting Chill nearby."
     },
     {
       "name": "Cold Embrace",
       "god": "Demeter/Aphrodite",
       "duo": true,
       "image": "Cold_Embrace.png",
-      "prerequisites": ["Crystal Beam", "Heartbreak Strike, Passion Dash, Heartbreak Flourish, Aphrodite's Aid"]
+      "prerequisites": [
+        "Crystal Beam",
+        "Heartbreak Strike, Passion Dash, Heartbreak Flourish, Aphrodite's Aid"
+      ],
+      "text": "Your <b>Cast</b> crystal fires its beam directly at you for <b>4</b> seconds."
     },
     {
       "name": "Freezing Vortex",
       "god": "Demeter/Ares",
       "duo": true,
       "image": "Freezing_Vortex.png",
-      "prerequisites": ["Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash", "Slicing Shot, Slicing Flare"]
+      "prerequisites": [
+        "Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash",
+        "Slicing Shot, Slicing Flare"
+      ],
+      "text": "Your <b>Cast</b> inflicts <b>Chill</b>, but is smaller and moves slower."
     },
     {
       "name": "Crystal Clarity",
       "god": "Demeter/Artemis",
       "duo": true,
       "image": "Crystal_Clarity.png",
-      "prerequisites": ["Crystal Beam", "Artemis' Aid, Deadly Flourish, Deadly Strike, Hunter Dash"]
+      "prerequisites": [
+        "Crystal Beam",
+        "Artemis' Aid, Deadly Flourish, Deadly Strike, Hunter Dash"
+      ],
+      "text": "Your <b>Cast</b> is stronger and tracks foes more effectively."
     },
     {
       "name": "Stubborn Roots",
       "god": "Demeter/Athena",
       "duo": true,
       "image": "Stubborn_Roots.png",
-      "prerequisites": ["Frost Strike, Mistral Dash, Frost Flourish, Crystal Beam, Demeter's Aid", "Divine Strike, Divine Flourish, Phalanx Shot, Divine Dash, Athena's Aid"]
+      "prerequisites": [
+        "Frost Strike, Mistral Dash, Frost Flourish, Crystal Beam, Demeter's Aid",
+        "Divine Strike, Divine Flourish, Phalanx Shot, Divine Dash, Athena's Aid"
+      ],
+      "text": "While you have no <b>Death/Stubborn Defiance</b> your Health slowly "
     },
     {
       "name": "Drunken Strike",

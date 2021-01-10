@@ -8,7 +8,21 @@ import tools from '../tools.js';
 class BoonDetails extends React.Component {
   constructor(props) {
     super(props);
+    this.boonRef = React.createRef();
     this.addBoon = this.addBoon.bind(this);
+  }
+  componentDidMount() {
+    this.maybeScrollIntoView();
+  }
+  componentDidUpdate(prevProps) {
+    this.maybeScrollIntoView();
+  }
+  maybeScrollIntoView() {
+    const { boon, currentlySelectedBoon } = this.props;
+    const isCurrentlySelectedBoon = currentlySelectedBoon?.name === boon.name;
+    if (isCurrentlySelectedBoon) {
+      this.boonRef?.current?.scrollIntoView();
+    }
   }
   addBoon() {
     const { boon } = this.props;
@@ -112,15 +126,9 @@ class BoonDetails extends React.Component {
       } else {
         className += " unavailable";
       }
-      // Removing this for the time being, just trying it out.
-      /*return (
-        <div className={className}>
-          {boonDetails}
-        </div>
-      );*/
     }
     return (
-      <div className={className} onClick={this.addBoon}>
+      <div ref={this.boonRef} className={className} onClick={this.addBoon}>
         {boonDetails}
       </div>
     );

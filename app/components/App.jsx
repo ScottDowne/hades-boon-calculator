@@ -57,6 +57,13 @@ class App extends React.Component {
     const {App} = this.props;
     const boonSelectors = Object.keys(App.boons);
     const currentlySelectedBoon = App.boons[openPosition];
+
+    // Probably want to store a list of selected boons in redux and update it as a boon is added.
+    // Instead of generating it on demand here.
+    const selectedBoons = boonSelectors
+      .filter(boonPosition => App.boons[boonPosition])
+      .map(boonPosition => App.boons[boonPosition].name);
+
     return (
       <div className="app-container">
         <div className="boons-container">
@@ -68,6 +75,7 @@ class App extends React.Component {
               const selectedBoon = App.boons[boonPosition];
               return (
                 <Boon
+                  selectedBoons={selectedBoons}
                   boonPosition={boonPosition}
                   openPosition={openPosition}
                   onOpen={this.onOpen}
@@ -82,6 +90,7 @@ class App extends React.Component {
           }
         </div>
         <BoonSelector
+          selectedBoons={selectedBoons}
           openPosition={openPosition}
           boons={boons}
           open={open}

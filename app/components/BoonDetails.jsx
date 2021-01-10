@@ -3,6 +3,7 @@
 import React from 'react';
 import { connect } from "react-redux";
 import at from '../actions.js';
+import tools from '../tools.js';
 
 class BoonDetails extends React.Component {
   constructor(props) {
@@ -15,28 +16,7 @@ class BoonDetails extends React.Component {
   }
   isBoonAvailable() {
     const { boon, selectedBoons } = this.props;
-    let available = true;
-    const prerequisiteUsed = [];
-    // If boon doesn't have any prerequisites, it is tier 1 and available by default.
-    if (boon.prerequisites?.length) {
-      // Loop through prerequisites array, and see if any selected Boons match.
-      for (const prerequisite of boon.prerequisites) {
-        let selectedAvailable = false;
-        // Go through each currently selected boon until we find a match.
-        for (const selectedBoon of selectedBoons) {
-          if (!prerequisiteUsed.includes(selectedBoon) && prerequisite.includes(selectedBoon)) {
-            prerequisiteUsed.push(selectedBoon);
-            selectedAvailable = true;
-            break;
-          }
-        }
-        if (!selectedAvailable) {
-          available = false;
-          break;
-        }
-      }
-    }
-    return available;
+    return tools.isBoonAvailable(boon, selectedBoons);
   }
   renderPrerequisites() {
     const { boon, selectedBoons } = this.props;

@@ -31,6 +31,10 @@ button {
   height: 100%;
   min-height: 762px;
   box-sizing: border-box; }
+  @media (max-width: 390px) {
+    .app-container {
+      padding: 0;
+      background: #373737; } }
 
 .boon-container {
   width: 68px;
@@ -61,6 +65,8 @@ button {
     border-color: greenyellow; }
   .boon-container.legendary {
     border-color: gold; }
+  .boon-container.unavailable {
+    opacity: 0.4; }
 
 .boon-details {
   cursor: pointer;
@@ -102,9 +108,17 @@ button {
 
 .boon-selector-container {
   height: 100%;
-  margin: 0 20px;
+  padding-left: 20px;
   display: flex;
   flex-direction: column; }
+  @media (max-width: 746px) {
+    .boon-selector-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: black;
+      padding: 8px;
+      box-sizing: border-box; } }
   .boon-selector-container .boon-selector-scroller {
     max-height: 100%;
     overflow-y: auto;

@@ -2,6 +2,7 @@
 
 import React from 'react';
 import at from '../actions.js';
+import tools from '../tools.js';
 
 class Boon extends React.Component {
   constructor(props) {
@@ -16,6 +17,10 @@ class Boon extends React.Component {
     } else {
       this.props.onOpen(boonPosition, boons);
     }
+  }
+  isBoonAvailable() {
+    const { selectedBoon, selectedBoons } = this.props;
+    return tools.isBoonAvailable(selectedBoon, selectedBoons);
   }
   render() {
     const {boons, boonPosition, openPosition, standardBoonType, selectedBoon} = this.props;
@@ -35,6 +40,10 @@ class Boon extends React.Component {
       className += " legendary";
     } else if (selectedBoon?.duo) {
       className += " duo";
+    }
+
+    if (!this.isBoonAvailable()) {
+      className += " unavailable";
     }
 
     if (selectedBoonImage) {

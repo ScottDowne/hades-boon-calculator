@@ -1,8 +1,17 @@
 .boon-selector-container {
   height: 100%;
-  margin: 0 20px;
+  padding-left: 20px;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 746px) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    padding: 8px;
+    box-sizing: border-box;
+  }
 
   .boon-selector-scroller {
     max-height: 100%;

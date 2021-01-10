@@ -36,4 +36,7 @@
   &.legendary {
     border-color: gold;
   }
+  &.unavailable {
+    opacity: 0.4;
+  }
 }
